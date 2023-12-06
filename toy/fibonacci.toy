@@ -1,0 +1,35 @@
+           #################################################################
+           #
+           # Fibonacci program, loaded at location 0x40
+           #
+           GOTO START          # TOY simulator requires an instruction at 0x10
+10: C040
+           : PC 40
+           : START
+           R[1] <- 01
+40: 7101
+           R[9] <- M[ COUNT ]  # forward reference to COUNT
+41: 894C
+           R[A] <- 01
+42: 7A01
+           R[B] <- 01
+43: 7B01
+           WHILE<>0 R[9]
+44: C94B
+               WRITE R[A]
+45: 9AFF
+               R[C] <- R[A] + R[B]
+46: 1CAB
+               R[A] <- R[B]
+47: 1AB0
+               R[B] <- R[C]
+48: 1BC0
+               R[9] <- R[9] - R[1]
+49: 2991
+           REPEAT
+4A: C044
+           : STOP              # the HALT statement
+           HALT
+4B: 0000
+           . COUNT 0017
+4C: 0017
