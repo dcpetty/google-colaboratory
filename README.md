@@ -6,8 +6,8 @@ Jupyter notebooks from [http://colab.research.google.com/](http://colab.research
 
 | Name | Viewer | Repository | Description |
 | ---| --- | --- | --- |
-| `logicproof` | [`logicproof`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/logicproof.ipynb) | [`logicproof.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/logicproof.ipynb) | Logic proofs |
-| `odrisamer-despaigne-club` | [`odrisamer-despaigne-club`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/odrisamer-despaigne-club.ipynb) | [`odrisamer-despaigne-club.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/odrisamer-despaigne-club.ipynb) | Unique MLB players' names |
+| `logicproof` | [`logicproof`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/logicproof.ipynb) | [`logicproof.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/logicproof.ipynb) | Logic proofs from [Stanford Introduction to Logic](http://intrologic.stanford.edu/) |
+| `odrisamer-despaigne-club` | [`odrisamer-despaigne-club`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/odrisamer-despaigne-club.ipynb) | [`odrisamer-despaigne-club.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/odrisamer-despaigne-club.ipynb) | Unique [MLB](https://www.mlb.com/) players' names |
 | `spellingbee` | [`spellingbee`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/spellingbee.ipynb) | [`spellingbee.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/spellingbee.ipynb) | [NYTimes Spellingbee](https://www.nytimes.com/puzzles/spelling-bee) puzzle |
 | `wordle` | [`wordle`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/wordle.ipynb) | [`wordle.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/wordle.ipynb) | [NYTimes Wordle](https://www.nytimes.com/games/wordle) game (also [Quordle](https://www.merriam-webster.com/games/quordle/)) |
 
