@@ -18,4 +18,4 @@ WHILE<>0 R[9]
 REPEAT
 : STOP              # the HALT statement
 HALT
-. COUNT 0017
+. COUNT 0018

@@ -6,23 +6,24 @@
 """Minimal test code for toy.py."""
 
 from toy import TOY
+from pathlib import Path
 
+toy = TOY()
 
 print('################################ TEST ################################')
 print()
 
-toy = TOY()
-
 print('#' * 10, 'Assemble test.asm\n')
-with open('test.asm', 'r') as f:
-    toy.asm(f.readlines())
+toy.asm(Path('test.asm'))
 toy.listing()
+
+print('############################## FIBONACCI #############################')
+print()
 
 print('#' * 10, 'Assemble fibonacci.asm\n')
-with open('fibonacci.asm', 'r') as f:
-    toy.asm(f.readlines())
-toy.listing()
+toy.asm(Path('fibonacci.asm'))
 toy.listing('fibonacci.toy')
+toy.listing()
 
 print('#' * 10, 'Run fibonacci.toy\n')
 toy.run( 0x40 )

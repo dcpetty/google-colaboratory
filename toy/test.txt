@@ -1,0 +1,136 @@
+################################ TEST ################################
+
+########## Assemble test.asm
+
+           #################################################################
+           #
+           # Test of random other code...
+           #
+           # NOT A VALID STATEMENT, SO IT IS A COMMENT
+           : start                             # can be upper / lower case
+           R[1] <- 1
+10: 7101
+           IF<>0 R[D]
+11: CD18
+               M[ COUNT ] <- R[D]  # test
+12: 9D29
+               R[D] <- M[ R[D] ]   # test
+13: AD0D
+               M[ R[D] ] <- R[D]   # test
+14: BD0D
+               R[D] <- M[ COUNT ]  # test
+15: 8D29
+               R[2] NOOP_TOKENS M[ COUNT ARE_NOT_CHECKED   # test
+16: 8229
+           ELSE
+17: C027
+               R[A] <- R[B] + R[C]
+18: 1ABC
+               R[A] <- R[B] - R[C]
+19: 2ABC
+               R[A] <- R[B] & R[C]
+1A: 3ABC
+               R[A] <- R[B] ^ R[C]
+1B: 4ABC
+               R[A] <- R[B] << R[C]
+1C: 5ABC
+               R[A] <- R[B] >> R[C]
+1D: 6ABC
+               BRANCH=0 R[D] START
+1E: CD10
+               BRANCH>0 R[D] END
+1F: DD27
+               JUMP R[D]
+20: ED00
+               LINK R[D] START
+21: FD10
+               R[E] <- M[ R[F] ]
+22: AE0F
+               M[ R[E] ] <- R[F]
+23: BF0E
+               WHILE<>0 R[E]
+24: CE27
+                   R[E] <- R[E] - R[1]
+25: 2EE1
+               REPEAT
+26: C024
+           THEN
+           : END
+           GOTO START
+27: C010
+           . 1234
+28: 1234
+           . COUNT 5678
+29: 5678
+           . THIS abcd                         # Where is this comment
+2A: ABCD
+           : THAT                              # Where is that comment
+           ! THAT -3F22                        # And this?
+2B: C0DE
+
+############################## FIBONACCI #############################
+
+########## Assemble fibonacci.asm
+
+           #################################################################
+           #
+           # Fibonacci program, loaded at location 0x40
+           #
+           GOTO START          # TOY simulator requires an instruction at 0x10
+10: C040
+           : PC 40
+           : START
+           R[1] <- 01
+40: 7101
+           R[9] <- M[ COUNT ]  # forward reference to COUNT
+41: 894C
+           R[A] <- 01
+42: 7A01
+           R[B] <- 01
+43: 7B01
+           WHILE<>0 R[9]
+44: C94B
+               WRITE R[A]
+45: 9AFF
+               R[C] <- R[A] + R[B]
+46: 1CAB
+               R[A] <- R[B]
+47: 1AB0
+               R[B] <- R[C]
+48: 1BC0
+               R[9] <- R[9] - R[1]
+49: 2991
+           REPEAT
+4A: C044
+           : STOP              # the HALT statement
+           HALT
+4B: 0000
+           . COUNT 0018
+4C: 0018
+
+########## Run fibonacci.toy
+
+0x0001      1
+0x0001      1
+0x0002      2
+0x0003      3
+0x0005      5
+0x0008      8
+0x000d     13
+0x0015     21
+0x0022     34
+0x0037     55
+0x0059     89
+0x0090    144
+0x00e9    233
+0x0179    377
+0x0262    610
+0x03db    987
+0x063d   1597
+0x0a18   2584
+0x1055   4181
+0x1a6d   6765
+0x2ac2  10946
+0x452f  17711
+0x6ff1  28657
+0xb520 -19168 (46368)

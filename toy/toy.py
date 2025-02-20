@@ -90,23 +90,18 @@ class TOY:
     #    }
     # }
 
-    def _output(self, value, bits=16):
-        """Output hex and 16-bit 2's-complement value."""
-        # https://stackoverflow.com/a/32031543/17467335
-        sgn = 1 << (bits - 1)
-        print("0x{:04X} = {}".format(value, (value & (sgn - 1)) - (value & sgn)))
-
     # Toy simulator (after COS 126 'Toy simulator in Java' from Lecture 18).
     def _store(self, M, addr, value):
         """Store value at M[ addr ] and handle memory-mapped output at 0xFF."""
         M[addr] = value
         if addr == 0xFF:
-            self._output(value)
+            f = '0x{v:04x}' + ('{n:7d} ({v:5d})' if value & 1<<15 else '{v:7d}')
+            print(f.format(v=value, n=-(~value + 1 & 0xffff)))
 
     def _load(self, M, addr):
         """Return value at M[ addr ] and handle memory-mapped input at 0xFF."""
         if addr == 0xFF:
-            M[addr] = int(input('input? '))
+            M[addr] = int(raw_input('input? '))
         return M[addr]
 
     def run(self, pc=0x10):
@@ -337,11 +332,16 @@ class TOY:
     # http://introcs.cs.princeton.edu/java/60machine/reference.txt
     # http://introcs.cs.princeton.edu/java/62toy/
     def asm(self, program, pc=0x10):
-        """Assemble program (str or list) into memory at pc."""
+        """Assemble program (Path or str or list) into memory at pc."""
         self._init()
         self._labels['PC'] = pc
         # Process lines of program.
-        lines = program.splitlines() if isinstance(program, str) else program
+        from pathlib import Path
+        if isinstance(program, Path):
+            with open(program, 'r') as f:
+                lines = f.readlines()
+        else: lines = \
+            program.splitlines() if isinstance(program, str) else program
         for line in lines:
             # Parse lines on spaces and remove comments on #.
             code = line.split('#')[0].strip()
@@ -489,7 +489,7 @@ class TOY:
                 self._increment()
             # # COMMENT
             elif line:
-                if not re.match('\s*#', line):
+                if not re.match(r'\s*#', line):
                     line = '# {}'.format(line)
                 self._saveStatement(self._labels['PC'], line)
         # Make sure all labels are defined.
