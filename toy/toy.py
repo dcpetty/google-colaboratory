@@ -114,7 +114,7 @@ class TOY:
             d = (ir >> 8) & 0xF     # dest d (bits 08-11)
             s = (ir >> 4) & 0xF     # source s (bits 04-07)
             t = (ir >> 0) & 0xF     # source t (bits 00-03)
-            addr = (ir >> 0) & 0xFF  # addr (bits 00-07)
+            addr = (ir >> 0) & 0xFF # addr (bits 00-07)
             if (op == 0):
                 break   # halt
             elif op == 1:
@@ -186,7 +186,7 @@ class TOY:
                 all(ops[i] in self._register for i in [0, 2, ]))
 
     def _isLoadAddress(self, ops):
-        """R[A] < - LABEL"""
+        """R[A] <- LABEL"""
         return (len(ops) == 3 and
                 ops[0] in self._register and
                 (self._isNumber(ops[2]) or self._isLabel(ops[2])))
@@ -489,7 +489,7 @@ class TOY:
                 self._increment()
             # # COMMENT
             elif line:
-                if not re.match(r'\s*#', line):
+                if not re.match('\s*#', line):
                     line = '# {}'.format(line)
                 self._saveStatement(self._labels['PC'], line)
         # Make sure all labels are defined.
