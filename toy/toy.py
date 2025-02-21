@@ -10,7 +10,7 @@ import re
 __author__ = "David C. Petty"
 __copyright__ = "Copyright 2017, David C. Petty"
 __license__ = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __maintainer__ = "David C. Petty"
 __email__ = "dpetty@winchsterps.org"
 __status__ = "Hack"
@@ -489,7 +489,7 @@ class TOY:
                 self._increment()
             # # COMMENT
             elif line:
-                if not re.match('\s*#', line):
+                if not re.match(r'\s*#', line):
                     line = '# {}'.format(line)
                 self._saveStatement(self._labels['PC'], line)
         # Make sure all labels are defined.
