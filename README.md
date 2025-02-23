@@ -25,7 +25,7 @@ The [AoC](https://adventofcode.com/2023/about/) '&hellip;is an Advent calendar o
 | 2021 | [2021](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/aoc/aoc2023/aoc2021.ipynb?flush_cache=true) | [`aoc2021.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/aoc/aoc2023/aoc2021.ipynb) | [AoC 2021](https://adventofcode.com/2021/) |
 | 2022 | [2022](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/aoc/aoc2023/aoc2022.ipynb?flush_cache=true) | [`aoc2022.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/aoc/aoc2023/aoc2022.ipynb) | [AoC 2022](https://adventofcode.com/2022/) |
 | 2023 | [2023](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/aoc/aoc2023/aoc2023.ipynb?flush_cache=true) | [`aoc2023.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/aoc/aoc2023/aoc2023.ipynb) | [AoC 2023](https://adventofcode.com/2023/) |
-| 2024 | [2024](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/aoc/aoc2024/aoc2024.ipynb?flush_cache=true) | [`aoc2024.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/aoc/aoc2023/aoc2024.ipynb) | [AoC 2023](https://adventofcode.com/2024/) |
+| 2024 | [2024](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/aoc/aoc2024/aoc2024.ipynb?flush_cache=true) | [`aoc2024.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/aoc/aoc2024/aoc2024.ipynb) | [AoC 2024](https://adventofcode.com/2024/) |
 
 <hr>
 
