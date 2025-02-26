@@ -76,34 +76,34 @@
            #
            # Fibonacci program, loaded at location 0x40
            #
-           GOTO START          # TOY simulator requires an instruction at 0x10
+           GOTO START              # TOY simulator requires instruction at 0x10
 10: C040
            : PC 40
            : START
-           R[1] <- 01
+           R[1] <- 01              # R1 <- decrement
 40: 7101
-           R[9] <- M[ COUNT ]  # forward reference to COUNT
+           R[9] <- M[ COUNT ]      # R9 <- COUNT (forward reference)
 41: 894C
-           R[A] <- 01
-42: 7A01
-           R[B] <- 01
+           R[A] <- 00              # RA <- previous Fibonacci number
+42: 7A00
+           R[B] <- 01              # RB <- current Fibonacci number
 43: 7B01
            WHILE<>0 R[9]
 44: C94B
-               WRITE R[A]
-45: 9AFF
-               R[C] <- R[A] + R[B]
+               WRITE R[B]          # send current Fibonacci number to stdout
+45: 9BFF
+               R[C] <- R[A] + R[B] # calculate next Fibonacci number
 46: 1CAB
-               R[A] <- R[B]
+               R[A] <- R[B]        # shift previous Fibonacci number
 47: 1AB0
-               R[B] <- R[C]
+               R[B] <- R[C]        # shift current Fibonacci number
 48: 1BC0
-               R[9] <- R[9] - R[1]
+               R[9] <- R[9] - R[1] # decrement counter
 49: 2991
            REPEAT
 4A: C044
-           : STOP              # the HALT statement
-           HALT
+           : STOP
+           HALT                    # the HALT statement
 4B: 0000
            . COUNT 0018
 4C: 0018
