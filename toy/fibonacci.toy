@@ -16,14 +16,14 @@
 43: 7B01
            WHILE<>0 R[9]
 44: C94B
-               WRITE R[B]          # send current Fibonacci number to stdout
-45: 9BFF
                R[C] <- R[A] + R[B] # calculate next Fibonacci number
-46: 1CAB
+45: 1CAB
                R[A] <- R[B]        # shift previous Fibonacci number
-47: 1AB0
+46: 1AB0
                R[B] <- R[C]        # shift current Fibonacci number
-48: 1BC0
+47: 1BC0
+               WRITE R[B]          # send current Fibonacci number to stdout
+48: 9BFF
                R[9] <- R[9] - R[1] # decrement counter
 49: 2991
            REPEAT
