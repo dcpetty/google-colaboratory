@@ -10,10 +10,10 @@ R[9] <- M[ COUNT ]      # R9 <- COUNT (forward reference)
 R[A] <- 00              # RA <- previous Fibonacci number
 R[B] <- 01              # RB <- current Fibonacci number
 WHILE<>0 R[9]
-    WRITE R[B]          # send current Fibonacci number to stdout
     R[C] <- R[A] + R[B] # calculate next Fibonacci number
     R[A] <- R[B]        # shift previous Fibonacci number
     R[B] <- R[C]        # shift current Fibonacci number
+    WRITE R[B]          # send current Fibonacci number to stdout
     R[9] <- R[9] - R[1] # decrement counter
 REPEAT
 : STOP
