@@ -31,5 +31,5 @@
            : STOP
            HALT                    # the HALT statement
 4B: 0000
-           . COUNT 0018
-4C: 0018
+           . COUNT 0017
+4C: 0017
