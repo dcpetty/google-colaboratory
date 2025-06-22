@@ -4,7 +4,7 @@ This is a [Google Colab](https://colab.research.google.com/) notebook that defin
 
 > **TODO**: this may not be the [Pythonic](https://docs.python-guide.org/writing/style/).
 
-Use [https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/log/blob/master/log.ipynb](https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/log/blob/main/log.ipynb) to view it in `nbviewer`.
+Use [https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/blob/main/log/log.ipynb](https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/blob/main/log/log.ipynb) to view it in `nbviewer`.
 
 <hr>
 

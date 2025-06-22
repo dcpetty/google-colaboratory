@@ -4,7 +4,7 @@ This is a [Google Colab](https://colab.research.google.com/) notebook that solve
 
 > In a [beer pong](https://en.wikipedia.org/wiki/Beer_pong) tournament where pairs are chosen at random... and there are 126 participants and 12 are from New York... what are the chances there is at least one pair consisting of two New Yorkers?
 
-Use [https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/beerpong/blob/master/beerpong.ipynb](https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/beerpong/blob/main/beerpong.ipynb) to view it in `nbviewer`.
+Use [https://github.com/dcpetty/google-colaboratory/blob/main/beerpong/beerpong.ipynb](https://github.com/dcpetty/google-colaboratory/blob/main/beerpong/beerpong.ipynb) to view it in `nbviewer`.
 
 <hr>
 

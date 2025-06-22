@@ -5,7 +5,7 @@ These are [Google Colab](https://colab.research.google.com/) notebooks that illu
 | Name | Viewer | Repository | Description |
 | --- | --- | --- | --- |
 | `logicproof` | [`logicproof`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/mathematics/logicproof.ipynb?flush_cache=true) | [`logicproof.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/mathematics/logicproof.ipynb) | Logic proofs from [Stanford Introduction to Logic](http://intrologic.stanford.edu/) |
-| `number-theory` | [`number-theory `](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/mathematics/number-theory.ipynb?flush_cache=true) | [`morse.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/mathematics/number-theory.ipynb) | Code for [UML 5130](https://faculty.uml.edu/klevasseur/courses/92.513/92.513.html) |
+| `number-theory` | [`number-theory `](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/mathematics/number-theory.ipynb?flush_cache=true) | [`number-theory.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/mathematics/number-theory.ipynb) | Code for [UML 5130](https://faculty.uml.edu/klevasseur/courses/92.513/92.513.html) |
 
 <hr>
 
