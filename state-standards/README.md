@@ -6,4 +6,4 @@ Use [https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/state-stand
 
 <hr>
 
-[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/state-standards/) and [&#128297; repository](https://github.com/dcpetty/google-colaboratory/state-standards/) for this page.
+[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/state-standards/) and [&#128297; repository](https://github.com/dcpetty/google-colaboratory/tree/main/state-standards/) for this page.
