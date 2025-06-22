@@ -12,7 +12,7 @@ sample-r-colab-notebook.ipynb
 
 | Name | Viewer | Repository | Description |
 | --- | --- | --- | --- |
-| `java-test` | [`java-test`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/java-tet.ipynb?flush_cache=true) | [`java-test.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/java-test.ipynb) | This [Google Colab]() notebook shows how to run [Java](https://www.oracle.com/java/) code.  |
+| `java-test` | [`java-test`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/java-tset.ipynb?flush_cache=true) | [`java-test.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/java-test.ipynb) | This [Google Colab](http://colab.research.google.com/) notebook shows how to run [Java](https://www.oracle.com/java/) code.  |
 | `morse` | [`morse `](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/morse.ipynb?flush_cache=true) | [`morse.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/morse.ipynb) | An analysis of this animated [Morse Code](https://en.wikipedia.org/wiki/Morse_code) decoder ([https://www.instagram.com/reel/DGV5RuasPsa/](https://www.instagram.com/reel/DGV5RuasPsa/)) |
 | `odrisamer-despaigne-club` | [`odrisamer-despaigne-club`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/odrisamer-despaigne-club.ipynb?flush_cache=true) | [`odrisamer-despaigne-club.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/odrisamer-despaigne-club.ipynb) | Unique [MLB](https://www.mlb.com/) players' names |
 | `pyyamltest` | [`pyyamltest`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/pyyamltest.ipynb?flush_cache=true) | [`pyyamltest.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/remote-files/pyyamltest.ipynb) | Test of the [PyYAML](https://pyyaml.org/wiki/PyYAMLDocumentation) module using the [Real Python](https://realpython.com/python-yaml/) tutorial. |
@@ -36,16 +36,16 @@ The [AoC](https://adventofcode.com/2023/about/) '&hellip;is an Advent calendar o
 
 | Repository | Description |
 | --- | --- |
-| [aoc](https://github.com/dcpetty/google-colaboratory/aoc) | Solutions to [Advent of Code](https://adventofcode.com/) challenges described above. |
-| [beerpong](https://github.com/dcpetty/google-colaboratory/beerpong) | A notebook that solves a problem in [combinatorics](https://en.wikipedia.org/wiki/Combinatorics). |
-| [log](https://github.com/dcpetty/google-colaboratory/log) | A notebook that defines standard [Python](https://www.python.org/) [`logging`](https://docs.python.org/3/library/logging.html) code. |
-| [mathematics](https://github.com/dcpetty/google-colaboratory/mathematics) | Notebooks that illustrate or calculate various mathematical results. |
-| [puzzles](https://github.com/dcpetty/google-colaboratory/puzzles) | Notebooks used to solve various puzzles. |
-| [remote-files](https://github.com/dcpetty/google-colaboratory/puzzles) | Boilerplate notebook illustrating both *download* and *mount* techniques for accessing local files. |
-| [state-standards](https://github.com/dcpetty/google-colaboratory/state-standards) | A notebook included in the presentation: *[Exploring State and CSTA K-12 CS Learning Standards](https://docs.google.com/presentation/d/1Ms3huqQseEPwjY3HlU2VjIlMRNc3Brf0MdLZRJ-SnrQ/edit?slide=id.g3162543101e_0_3204#slide=id.g3162543101e_0_3204) &mdash; [ReimaginingCS Pathways](https://reimaginingcs.org/pathways/) High School and Beyond*. |
-| [survey](https://github.com/dcpetty/google-colaboratory/survey) | A notebook that converts [SmartCat](https://smartcat.com/) `*.txt` files w/ two columns to `*-translated.csv` files w/ three columns for the [Cambridge Childcare Setting Map](https://dcpetty.dev/cambridge-childcare-settings-map/). |
-| [toy](https://github.com/dcpetty/google-colaboratory/toy) | A notebook that that implements a *simulator* and an *assembler* for the [TOY](http://lift.cs.princeton.edu/xtoy/) computer. |
-| [turtle-star](https://github.com/dcpetty/google-colaboratory/XXX) | Notebooks that explore using [Python](https://python.org/) [`turtle`](https://docs.python.org/3/library/turtle.html) graphics to *draw a star*. |
+| [aoc](https://github.com/dcpetty/google-colaboratory/tree/main/aoc) | Solutions to [Advent of Code](https://adventofcode.com/) challenges described above. |
+| [beerpong](https://github.com/dcpetty/google-colaboratory/tree/main/beerpong) | A notebook that solves a problem in [combinatorics](https://en.wikipedia.org/wiki/Combinatorics). |
+| [log](https://github.com/dcpetty/google-colaboratory/tree/main/log) | A notebook that defines standard [Python](https://www.python.org/) [`logging`](https://docs.python.org/3/library/logging.html) code. |
+| [mathematics](https://github.com/dcpetty/google-colaboratory/tree/main/mathematics) | Notebooks that illustrate or calculate various mathematical results. |
+| [puzzles](https://github.com/dcpetty/google-colaboratory/tree/main/puzzles) | Notebooks used to solve various puzzles. |
+| [remote-files](https://github.com/dcpetty/google-colaboratory/tree/main/remote-files) | Boilerplate notebook illustrating both *download* and *mount* techniques for accessing local files. |
+| [state-standards](https://github.com/dcpetty/google-colaboratory/tree/main/state-standards) | A notebook included in the presentation: *[Exploring State and CSTA K-12 CS Learning Standards](https://docs.google.com/presentation/d/1Ms3huqQseEPwjY3HlU2VjIlMRNc3Brf0MdLZRJ-SnrQ/edit?slide=id.g3162543101e_0_3204#slide=id.g3162543101e_0_3204) &mdash; [ReimaginingCS Pathways](https://reimaginingcs.org/pathways/) High School and Beyond*. |
+| [survey](https://github.com/dcpetty/google-colaboratory/tree/main/survey) | A notebook that converts [SmartCat](https://smartcat.com/) `*.txt` files w/ two columns to `*-translated.csv` files w/ three columns for the [Cambridge Childcare Setting Map](https://dcpetty.dev/cambridge-childcare-settings-map/). |
+| [toy](https://github.com/dcpetty/google-colaboratory/tree/main/toy) | A notebook that that implements a *simulator* and an *assembler* for the [TOY](http://lift.cs.princeton.edu/xtoy/) computer. |
+| [turtle-star](https://github.com/dcpetty/google-colaboratory/tree/main/turtle-star) | Notebooks that explore using [Python](https://python.org/) [`turtle`](https://docs.python.org/3/library/turtle.html) graphics to *draw a star*. |
 
 <hr>
 
