@@ -50,6 +50,9 @@ out/
 *.sql
 *.sqlite
 
+# Ignore aoc .TXT files as per https://adventofcode.com/2025/about
+aoc/**/*.txt
+
 # Created by https://www.toptal.com/developers/gitignore/api/c,c++,jekyll,java,python,r,git,latex,macos,intellij+all,pycharm+all,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,jekyll,java,python,r,git,latex,macos,intellij+all,pycharm+all,visualstudiocode
 
