@@ -6,4 +6,4 @@ Use [https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/blob/main/t
 
 <hr>
 
-[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/toy/) and [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/toy/) for this page.
+[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/toy/), [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/toy/), and [&#10548; parent](../) for this page.
