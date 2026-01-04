@@ -4,8 +4,8 @@ These are [Google Colab](https://colab.research.google.com/) notebooks that expl
 
 | Name | Viewer | Repository | Description |
 | --- | --- | --- | --- |
-| `TurtleStar` | [`TurtleStar`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/turtle-star/TurtleStar.ipynb?flush_cache=true) | [`TurtleStar.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/turtle-star/TurtleStar.ipynb) | `TurtleStar` assignment |
-| `TurtleStarSolution` | [`TurtleStarSolution `](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/turtle-star/TurtleStarSolution.ipynb?flush_cache=true) | [`TurtleStarSolution.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/turtle-star/TurtleStarSolution.ipynb) | `TurtleStar` solution |
+| `TurtleStar` | [`TurtleStar`](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/turtle-star/TurtleStar.ipynb) | [`TurtleStar.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/turtle-star/TurtleStar.ipynb) | `TurtleStar` assignment |
+| `TurtleStarSolution` | [`TurtleStarSolution `](https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/turtle-star/TurtleStarSolution.ipynb) | [`TurtleStarSolution.ipynb`](https://github.com/dcpetty/google-colaboratory/blob/main/turtle-star/TurtleStarSolution.ipynb) | `TurtleStar` solution |
 
 [`jupyturtle`](https://github.com/ramalho/jupyturtle) is a variation on [`turtle`](https://docs.python.org/3/library/turtle.html) suitable for [Jupyter](https://jupyter.org/) notebooks.
 

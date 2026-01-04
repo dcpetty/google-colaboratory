@@ -2,7 +2,7 @@
 
 This is a [Google Colab](https://colab.research.google.com/) notebook to convert [SmartCat](https://smartcat.com/) `*.txt` files w/ two columns to `*-translated.csv` files w/ three columns for the [Cambridge Childcare Setting Map](https://dcpetty.dev/cambridge-childcare-settings-map/).
 
-Use [https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/blob/main/survey/survey.ipynb?flush_cache=true](https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/blob/main/survey/survey.ipynb?flush_cache=true) to view it in `nbviewer`.
+Use [https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/blob/main/survey/survey.ipynb](https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/blob/main/survey/survey.ipynb) to view it in `nbviewer`.
 
 <hr>
 
