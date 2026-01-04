@@ -18,4 +18,4 @@ This is a collection of random [Google Colab](https://colab.research.google.com/
 
 <hr>
 
-[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/hacks/) and [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/hacks/) for this page.
+[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/hacks/), [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/hacks/), and [&#10548; parent](../) for this page.

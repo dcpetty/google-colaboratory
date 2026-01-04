@@ -8,4 +8,4 @@ Use [https://nbviewer.jupyter.org/github/dcpetty/google-colaboratory/blob/main/l
 
 <hr>
 
-[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/log/) and [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/log/) for this page.
+[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/log/), [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/log/), and [&#10548; parent](../) for this page.

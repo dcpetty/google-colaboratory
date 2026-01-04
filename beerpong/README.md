@@ -8,4 +8,4 @@ Use [https://nbviewer.org/github/dcpetty/google-colaboratory/blob/main/beerpong/
 
 <hr>
 
-[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/beerpong/?flush_cache=true) and [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/beerpong/?flush_cache=true) for this page.
+[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/beerpong/), [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/beerpong), and [&#10548; parent](../) for this page.

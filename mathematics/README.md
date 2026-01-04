@@ -9,4 +9,4 @@ These are [Google Colab](https://colab.research.google.com/) notebooks that illu
 
 <hr>
 
-[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/mathematics/) and [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/mathematics/) for this page.
+[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/mathematics/), [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/mathematics/), and [&#10548; parent](../) for this page.

@@ -19,4 +19,4 @@ The [AoC](https://adventofcode.com/2023/about/) '&hellip;is an Advent calendar o
 
 <hr>
 
-[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/aoc/) and [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/aoc/) for this page.
+[&#128279; permalink](https://dcpetty.github.io/google-colaboratory/aoc/), [&#128230; repository](https://github.com/dcpetty/google-colaboratory/tree/main/aoc/), and [&#10548; parent](../) for this page.
