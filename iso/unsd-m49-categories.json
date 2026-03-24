@@ -1,0 +1,156 @@
+{
+  "regions": [
+    {
+      "name": "Africa",
+      "code": "002"
+    },
+    {
+      "name": "Oceania",
+      "code": "009"
+    },
+    {
+      "name": "Americas",
+      "code": "019"
+    },
+    {
+      "name": "Asia",
+      "code": "142"
+    },
+    {
+      "name": "Europe",
+      "code": "150"
+    }
+  ],
+  "sub_regions": [
+    {
+      "name": "Northern Africa",
+      "code": "015"
+    },
+    {
+      "name": "Northern America",
+      "code": "021"
+    },
+    {
+      "name": "Eastern Asia",
+      "code": "030"
+    },
+    {
+      "name": "Southern Asia",
+      "code": "034"
+    },
+    {
+      "name": "South-eastern Asia",
+      "code": "035"
+    },
+    {
+      "name": "Southern Europe",
+      "code": "039"
+    },
+    {
+      "name": "Australia and New Zealand",
+      "code": "053"
+    },
+    {
+      "name": "Melanesia",
+      "code": "054"
+    },
+    {
+      "name": "Micronesia",
+      "code": "057"
+    },
+    {
+      "name": "Polynesia",
+      "code": "061"
+    },
+    {
+      "name": "Central Asia",
+      "code": "143"
+    },
+    {
+      "name": "Western Asia",
+      "code": "145"
+    },
+    {
+      "name": "Eastern Europe",
+      "code": "151"
+    },
+    {
+      "name": "Northern Europe",
+      "code": "154"
+    },
+    {
+      "name": "Western Europe",
+      "code": "155"
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "code": "202"
+    },
+    {
+      "name": "Latin America and the Caribbean",
+      "code": "419"
+    }
+  ],
+  "intermediate_regions": [
+    {
+      "name": "South America",
+      "code": "005"
+    },
+    {
+      "name": "Western Africa",
+      "code": "011"
+    },
+    {
+      "name": "Central America",
+      "code": "013"
+    },
+    {
+      "name": "Eastern Africa",
+      "code": "014"
+    },
+    {
+      "name": "Middle Africa",
+      "code": "017"
+    },
+    {
+      "name": "Southern Africa",
+      "code": "018"
+    },
+    {
+      "name": "Caribbean",
+      "code": "029"
+    }
+  ],
+  "continents_3166": [
+    {
+      "short_name": "AF",
+      "name": "Africa",
+      "code": "002"
+    },
+    {
+      "short_name": "SA",
+      "name": "South America",
+      "code": "005"
+    },
+    {
+      "short_name": "OC",
+      "name": "Oceania",
+      "code": "009"
+    },
+    {
+      "short_name": "NA",
+      "name": "Northern America",
+      "code": "021"
+    },
+    {
+      "short_name": "AS",
+      "name": "Asia",
+      "code": "142"
+    },
+    {
+      "short_name": "EU",
+      "name": "Europe",
+      "code": "150"
+    }
+  ]
+}
