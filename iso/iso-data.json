@@ -1,4 +1,5 @@
 {
+  "_comment": "This file includes analysis of ISO 639 language codes, ISO 3166 'codes for the  representation of names of countries and their subdivisions,' and UNSD M49  'Standard Country or Area Codes for Statistical Use.'",
   "country_lookup": {
     "AND": {
       "alpha2": "AD",
