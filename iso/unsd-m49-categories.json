@@ -123,32 +123,37 @@
   ],
   "continents_3166": [
     {
-      "short_name": "AF",
+      "iso2": "AF",
       "name": "Africa",
       "code": "002"
     },
     {
-      "short_name": "SA",
+      "iso2": "SA",
       "name": "South America",
       "code": "005"
     },
     {
-      "short_name": "OC",
+      "iso2": "OC",
       "name": "Oceania",
       "code": "009"
     },
     {
-      "short_name": "NA",
+      "iso2": "AN",
+      "name": "Antartica",
+      "code": "010"
+    },
+    {
+      "iso2": "NA",
       "name": "Northern America",
       "code": "021"
     },
     {
-      "short_name": "AS",
+      "iso2": "AS",
       "name": "Asia",
       "code": "142"
     },
     {
-      "short_name": "EU",
+      "iso2": "EU",
       "name": "Europe",
       "code": "150"
     }

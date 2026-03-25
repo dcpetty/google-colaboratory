@@ -1,11 +1,11 @@
 {
-  "_comment": "This file includes analysis of ISO 639 language codes, ISO 3166 'codes for the  representation of names of countries and their subdivisions,' and UNSD M49  'Standard Country or Area Codes for Statistical Use.'",
+  "_comment": "This file includes analysis of ISO 639 language codes, ISO 3166 'codes for the representation of names of countries and their subdivisions,' and UNSD M49 'Standard Country or Area Codes for Statistical Use.'",
   "country_lookup": {
     "AND": {
-      "alpha2": "AD",
+      "iso2": "AD",
       "name": "Andorra",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -14,13 +14,16 @@
           "code": "ca",
           "name": "Catalan"
         }
+      ],
+      "speak": [
+        "ca"
       ]
     },
     "ARE": {
-      "alpha2": "AE",
+      "iso2": "AE",
       "name": "United Arab Emirates",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -45,13 +48,20 @@
           "code": "ur",
           "name": "Urdu"
         }
+      ],
+      "speak": [
+        "ar-AE",
+        "fa",
+        "en",
+        "hi",
+        "ur"
       ]
     },
     "AFG": {
-      "alpha2": "AF",
+      "iso2": "AF",
       "name": "Afghanistan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -72,13 +82,19 @@
           "code": "tk",
           "name": "Turkmen"
         }
+      ],
+      "speak": [
+        "fa-AF",
+        "ps",
+        "uz-AF",
+        "tk"
       ]
     },
     "ATG": {
-      "alpha2": "AG",
+      "iso2": "AG",
       "name": "Antigua and Barbuda",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -87,13 +103,16 @@
           "code": "en-AG",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-AG"
       ]
     },
     "AIA": {
-      "alpha2": "AI",
+      "iso2": "AI",
       "name": "Anguilla",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -102,13 +121,16 @@
           "code": "en-AI",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-AI"
       ]
     },
     "ALB": {
-      "alpha2": "AL",
+      "iso2": "AL",
       "name": "Albania",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -121,13 +143,17 @@
           "code": "el",
           "name": "Modern Greek (1453-)"
         }
+      ],
+      "speak": [
+        "sq",
+        "el"
       ]
     },
     "ARM": {
-      "alpha2": "AM",
+      "iso2": "AM",
       "name": "Armenia",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -136,13 +162,16 @@
           "code": "hy",
           "name": "Armenian"
         }
+      ],
+      "speak": [
+        "hy"
       ]
     },
     "AGO": {
-      "alpha2": "AO",
+      "iso2": "AO",
       "name": "Angola",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -151,19 +180,27 @@
           "code": "pt-AO",
           "name": "Portuguese"
         }
+      ],
+      "speak": [
+        "pt-AO"
       ]
     },
     "ATA": {
-      "alpha2": "AQ",
+      "iso2": "AQ",
       "name": "Antarctica",
-      "region": "XXXX",
-      "languages": []
+      "region": {
+        "iso2": "AN",
+        "name": "Antartica",
+        "code": "010"
+      },
+      "languages": [],
+      "speak": []
     },
     "ARG": {
-      "alpha2": "AR",
+      "iso2": "AR",
       "name": "Argentina",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -192,13 +229,21 @@
           "code": "gn",
           "name": "Guarani"
         }
+      ],
+      "speak": [
+        "es-AR",
+        "en",
+        "it",
+        "de",
+        "fr",
+        "gn"
       ]
     },
     "ASM": {
-      "alpha2": "AS",
+      "iso2": "AS",
       "name": "American Samoa",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -215,13 +260,18 @@
           "code": "to",
           "name": "Tonga (Tonga Islands)"
         }
+      ],
+      "speak": [
+        "en-AS",
+        "sm",
+        "to"
       ]
     },
     "AUT": {
-      "alpha2": "AT",
+      "iso2": "AT",
       "name": "Austria",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -242,13 +292,19 @@
           "code": "sl",
           "name": "Slovenian"
         }
+      ],
+      "speak": [
+        "de-AT",
+        "hr",
+        "hu",
+        "sl"
       ]
     },
     "AUS": {
-      "alpha2": "AU",
+      "iso2": "AU",
       "name": "Australia",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -257,13 +313,16 @@
           "code": "en-AU",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-AU"
       ]
     },
     "ABW": {
-      "alpha2": "AW",
+      "iso2": "AW",
       "name": "Aruba",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -284,13 +343,19 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "nl-AW",
+        "pap",
+        "es",
+        "en"
       ]
     },
     "ALA": {
-      "alpha2": "AX",
+      "iso2": "AX",
       "name": "Aland Islands",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -299,13 +364,16 @@
           "code": "sv-AX",
           "name": "Swedish"
         }
+      ],
+      "speak": [
+        "sv-AX"
       ]
     },
     "AZE": {
-      "alpha2": "AZ",
+      "iso2": "AZ",
       "name": "Azerbaijan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -322,13 +390,18 @@
           "code": "hy",
           "name": "Armenian"
         }
+      ],
+      "speak": [
+        "az",
+        "ru",
+        "hy"
       ]
     },
     "BIH": {
-      "alpha2": "BA",
+      "iso2": "BA",
       "name": "Bosnia and Herzegovina",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -345,13 +418,18 @@
           "code": "sr-BA",
           "name": "Serbian"
         }
+      ],
+      "speak": [
+        "bs",
+        "hr-BA",
+        "sr-BA"
       ]
     },
     "BRB": {
-      "alpha2": "BB",
+      "iso2": "BB",
       "name": "Barbados",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -360,13 +438,16 @@
           "code": "en-BB",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-BB"
       ]
     },
     "BGD": {
-      "alpha2": "BD",
+      "iso2": "BD",
       "name": "Bangladesh",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -379,13 +460,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "bn-BD",
+        "en"
       ]
     },
     "BEL": {
-      "alpha2": "BE",
+      "iso2": "BE",
       "name": "Belgium",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -402,13 +487,18 @@
           "code": "de-BE",
           "name": "German"
         }
+      ],
+      "speak": [
+        "nl-BE",
+        "fr-BE",
+        "de-BE"
       ]
     },
     "BFA": {
-      "alpha2": "BF",
+      "iso2": "BF",
       "name": "Burkina Faso",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -421,13 +511,17 @@
           "code": "mos",
           "name": "Mossi"
         }
+      ],
+      "speak": [
+        "fr-BF",
+        "mos"
       ]
     },
     "BGR": {
-      "alpha2": "BG",
+      "iso2": "BG",
       "name": "Bulgaria",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -444,13 +538,18 @@
           "code": "rom",
           "name": "Romany"
         }
+      ],
+      "speak": [
+        "bg",
+        "tr-BG",
+        "rom"
       ]
     },
     "BHR": {
-      "alpha2": "BH",
+      "iso2": "BH",
       "name": "Bahrain",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -471,13 +570,19 @@
           "code": "ur",
           "name": "Urdu"
         }
+      ],
+      "speak": [
+        "ar-BH",
+        "en",
+        "fa",
+        "ur"
       ]
     },
     "BDI": {
-      "alpha2": "BI",
+      "iso2": "BI",
       "name": "Burundi",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -490,13 +595,17 @@
           "code": "rn",
           "name": "Rundi"
         }
+      ],
+      "speak": [
+        "fr-BI",
+        "rn"
       ]
     },
     "BEN": {
-      "alpha2": "BJ",
+      "iso2": "BJ",
       "name": "Benin",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -505,13 +614,16 @@
           "code": "fr-BJ",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-BJ"
       ]
     },
     "BLM": {
-      "alpha2": "BL",
+      "iso2": "BL",
       "name": "Saint Barthelemy",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -520,13 +632,16 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr"
       ]
     },
     "BMU": {
-      "alpha2": "BM",
+      "iso2": "BM",
       "name": "Bermuda",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -539,13 +654,17 @@
           "code": "pt",
           "name": "Portuguese"
         }
+      ],
+      "speak": [
+        "en-BM",
+        "pt"
       ]
     },
     "BRN": {
-      "alpha2": "BN",
+      "iso2": "BN",
       "name": "Brunei",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -558,13 +677,17 @@
           "code": "en-BN",
           "name": "English"
         }
+      ],
+      "speak": [
+        "ms-BN",
+        "en-BN"
       ]
     },
     "BOL": {
-      "alpha2": "BO",
+      "iso2": "BO",
       "name": "Bolivia",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -581,13 +704,18 @@
           "code": "ay",
           "name": "Aymara"
         }
+      ],
+      "speak": [
+        "es-BO",
+        "qu",
+        "ay"
       ]
     },
     "BES": {
-      "alpha2": "BQ",
+      "iso2": "BQ",
       "name": "Bonaire, Saint Eustatius and Saba ",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -604,13 +732,18 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "nl",
+        "pap",
+        "en"
       ]
     },
     "BRA": {
-      "alpha2": "BR",
+      "iso2": "BR",
       "name": "Brazil",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -631,13 +764,19 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "pt-BR",
+        "es",
+        "en",
+        "fr"
       ]
     },
     "BHS": {
-      "alpha2": "BS",
+      "iso2": "BS",
       "name": "Bahamas",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -646,13 +785,16 @@
           "code": "en-BS",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-BS"
       ]
     },
     "BTN": {
-      "alpha2": "BT",
+      "iso2": "BT",
       "name": "Bhutan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -661,19 +803,27 @@
           "code": "dz",
           "name": "Dzongkha"
         }
+      ],
+      "speak": [
+        "dz"
       ]
     },
     "BVT": {
-      "alpha2": "BV",
+      "iso2": "BV",
       "name": "Bouvet Island",
-      "region": "XXXX",
-      "languages": []
+      "region": {
+        "iso2": "AN",
+        "name": "Antartica",
+        "code": "010"
+      },
+      "languages": [],
+      "speak": []
     },
     "BWA": {
-      "alpha2": "BW",
+      "iso2": "BW",
       "name": "Botswana",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -686,13 +836,17 @@
           "code": "tn-BW",
           "name": "Tswana"
         }
+      ],
+      "speak": [
+        "en-BW",
+        "tn-BW"
       ]
     },
     "BLR": {
-      "alpha2": "BY",
+      "iso2": "BY",
       "name": "Belarus",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -705,13 +859,17 @@
           "code": "ru",
           "name": "Russian"
         }
+      ],
+      "speak": [
+        "be",
+        "ru"
       ]
     },
     "BLZ": {
-      "alpha2": "BZ",
+      "iso2": "BZ",
       "name": "Belize",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -724,13 +882,17 @@
           "code": "es",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "en-BZ",
+        "es"
       ]
     },
     "CAN": {
-      "alpha2": "CA",
+      "iso2": "CA",
       "name": "Canada",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -747,13 +909,18 @@
           "code": "iu",
           "name": "Inuktitut"
         }
+      ],
+      "speak": [
+        "en-CA",
+        "fr-CA",
+        "iu"
       ]
     },
     "CCK": {
-      "alpha2": "CC",
+      "iso2": "CC",
       "name": "Cocos Islands",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -766,13 +933,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "ms-CC",
+        "en"
       ]
     },
     "COD": {
-      "alpha2": "CD",
+      "iso2": "CD",
       "name": "Democratic Republic of the Congo",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -801,13 +972,21 @@
           "code": "lua",
           "name": "Luba-Lulua"
         }
+      ],
+      "speak": [
+        "fr-CD",
+        "ln",
+        "ktu",
+        "kg",
+        "sw",
+        "lua"
       ]
     },
     "CAF": {
-      "alpha2": "CF",
+      "iso2": "CF",
       "name": "Central African Republic",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -828,13 +1007,19 @@
           "code": "kg",
           "name": "Kongo"
         }
+      ],
+      "speak": [
+        "fr-CF",
+        "sg",
+        "ln",
+        "kg"
       ]
     },
     "COG": {
-      "alpha2": "CG",
+      "iso2": "CG",
       "name": "Republic of the Congo",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -851,13 +1036,18 @@
           "code": "ln-CG",
           "name": "Lingala"
         }
+      ],
+      "speak": [
+        "fr-CG",
+        "kg",
+        "ln-CG"
       ]
     },
     "CHE": {
-      "alpha2": "CH",
+      "iso2": "CH",
       "name": "Switzerland",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -878,13 +1068,19 @@
           "code": "rm",
           "name": "Romansh"
         }
+      ],
+      "speak": [
+        "de-CH",
+        "fr-CH",
+        "it-CH",
+        "rm"
       ]
     },
     "CIV": {
-      "alpha2": "CI",
+      "iso2": "CI",
       "name": "Ivory Coast",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -893,13 +1089,16 @@
           "code": "fr-CI",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-CI"
       ]
     },
     "COK": {
-      "alpha2": "CK",
+      "iso2": "CK",
       "name": "Cook Islands",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -912,13 +1111,17 @@
           "code": "mi",
           "name": "Maori"
         }
+      ],
+      "speak": [
+        "en-CK",
+        "mi"
       ]
     },
     "CHL": {
-      "alpha2": "CL",
+      "iso2": "CL",
       "name": "Chile",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -927,13 +1130,16 @@
           "code": "es-CL",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "es-CL"
       ]
     },
     "CMR": {
-      "alpha2": "CM",
+      "iso2": "CM",
       "name": "Cameroon",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -946,13 +1152,17 @@
           "code": "fr-CM",
           "name": "French"
         }
+      ],
+      "speak": [
+        "en-CM",
+        "fr-CM"
       ]
     },
     "CHN": {
-      "alpha2": "CN",
+      "iso2": "CN",
       "name": "China",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -981,13 +1191,21 @@
           "code": "za",
           "name": "Zhuang"
         }
+      ],
+      "speak": [
+        "zh-CN",
+        "yue",
+        "wuu",
+        "dta",
+        "ug",
+        "za"
       ]
     },
     "COL": {
-      "alpha2": "CO",
+      "iso2": "CO",
       "name": "Colombia",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -996,13 +1214,16 @@
           "code": "es-CO",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "es-CO"
       ]
     },
     "CRI": {
-      "alpha2": "CR",
+      "iso2": "CR",
       "name": "Costa Rica",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -1015,13 +1236,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "es-CR",
+        "en"
       ]
     },
     "CUB": {
-      "alpha2": "CU",
+      "iso2": "CU",
       "name": "Cuba",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -1034,13 +1259,17 @@
           "code": "pap",
           "name": "Papiamento"
         }
+      ],
+      "speak": [
+        "es-CU",
+        "pap"
       ]
     },
     "CPV": {
-      "alpha2": "CV",
+      "iso2": "CV",
       "name": "Cabo Verde",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1049,13 +1278,16 @@
           "code": "pt-CV",
           "name": "Portuguese"
         }
+      ],
+      "speak": [
+        "pt-CV"
       ]
     },
     "CUW": {
-      "alpha2": "CW",
+      "iso2": "CW",
       "name": "Curacao",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -1068,13 +1300,17 @@
           "code": "pap",
           "name": "Papiamento"
         }
+      ],
+      "speak": [
+        "nl",
+        "pap"
       ]
     },
     "CXR": {
-      "alpha2": "CX",
+      "iso2": "CX",
       "name": "Christmas Island",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -1091,13 +1327,18 @@
           "code": "ms-CX",
           "name": "Malay (macrolanguage)"
         }
+      ],
+      "speak": [
+        "en",
+        "zh",
+        "ms-CX"
       ]
     },
     "CYP": {
-      "alpha2": "CY",
+      "iso2": "CY",
       "name": "Cyprus",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1114,13 +1355,18 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "el-CY",
+        "tr-CY",
+        "en"
       ]
     },
     "CZE": {
-      "alpha2": "CZ",
+      "iso2": "CZ",
       "name": "Czechia",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1133,13 +1379,17 @@
           "code": "sk",
           "name": "Slovak"
         }
+      ],
+      "speak": [
+        "cs",
+        "sk"
       ]
     },
     "DEU": {
-      "alpha2": "DE",
+      "iso2": "DE",
       "name": "Germany",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1148,13 +1398,16 @@
           "code": "de",
           "name": "German"
         }
+      ],
+      "speak": [
+        "de"
       ]
     },
     "DJI": {
-      "alpha2": "DJ",
+      "iso2": "DJ",
       "name": "Djibouti",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1175,13 +1428,19 @@
           "code": "aa",
           "name": "Afar"
         }
+      ],
+      "speak": [
+        "fr-DJ",
+        "ar",
+        "so-DJ",
+        "aa"
       ]
     },
     "DNK": {
-      "alpha2": "DK",
+      "iso2": "DK",
       "name": "Denmark",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1202,13 +1461,19 @@
           "code": "de-DK",
           "name": "German"
         }
+      ],
+      "speak": [
+        "da-DK",
+        "en",
+        "fo",
+        "de-DK"
       ]
     },
     "DMA": {
-      "alpha2": "DM",
+      "iso2": "DM",
       "name": "Dominica",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -1217,13 +1482,16 @@
           "code": "en-DM",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-DM"
       ]
     },
     "DOM": {
-      "alpha2": "DO",
+      "iso2": "DO",
       "name": "Dominican Republic",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -1232,13 +1500,16 @@
           "code": "es-DO",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "es-DO"
       ]
     },
     "DZA": {
-      "alpha2": "DZ",
+      "iso2": "DZ",
       "name": "Algeria",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1247,13 +1518,16 @@
           "code": "ar-DZ",
           "name": "Arabic"
         }
+      ],
+      "speak": [
+        "ar-DZ"
       ]
     },
     "ECU": {
-      "alpha2": "EC",
+      "iso2": "EC",
       "name": "Ecuador",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -1262,13 +1536,16 @@
           "code": "es-EC",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "es-EC"
       ]
     },
     "EST": {
-      "alpha2": "EE",
+      "iso2": "EE",
       "name": "Estonia",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1281,13 +1558,17 @@
           "code": "ru",
           "name": "Russian"
         }
+      ],
+      "speak": [
+        "et",
+        "ru"
       ]
     },
     "EGY": {
-      "alpha2": "EG",
+      "iso2": "EG",
       "name": "Egypt",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1304,13 +1585,18 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "ar-EG",
+        "en",
+        "fr"
       ]
     },
     "ESH": {
-      "alpha2": "EH",
+      "iso2": "EH",
       "name": "Western Sahara",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1323,13 +1609,17 @@
           "code": "mey",
           "name": "Hassaniyya"
         }
+      ],
+      "speak": [
+        "ar",
+        "mey"
       ]
     },
     "ERI": {
-      "alpha2": "ER",
+      "iso2": "ER",
       "name": "Eritrea",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1354,13 +1644,20 @@
           "code": "ti-ER",
           "name": "Tigrinya"
         }
+      ],
+      "speak": [
+        "aa-ER",
+        "ar",
+        "tig",
+        "kun",
+        "ti-ER"
       ]
     },
     "ESP": {
-      "alpha2": "ES",
+      "iso2": "ES",
       "name": "Spain",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1385,13 +1682,20 @@
           "code": "oc",
           "name": "Occitan (post 1500)"
         }
+      ],
+      "speak": [
+        "es-ES",
+        "ca",
+        "gl",
+        "eu",
+        "oc"
       ]
     },
     "ETH": {
-      "alpha2": "ET",
+      "iso2": "ET",
       "name": "Ethiopia",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1420,13 +1724,21 @@
           "code": "sid",
           "name": "Sidamo"
         }
+      ],
+      "speak": [
+        "am",
+        "en-ET",
+        "om-ET",
+        "ti-ET",
+        "so-ET",
+        "sid"
       ]
     },
     "FIN": {
-      "alpha2": "FI",
+      "iso2": "FI",
       "name": "Finland",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1443,13 +1755,18 @@
           "code": "smn",
           "name": "Inari Sami"
         }
+      ],
+      "speak": [
+        "fi-FI",
+        "sv-FI",
+        "smn"
       ]
     },
     "FJI": {
-      "alpha2": "FJ",
+      "iso2": "FJ",
       "name": "Fiji",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -1462,13 +1779,17 @@
           "code": "fj",
           "name": "Fijian"
         }
+      ],
+      "speak": [
+        "en-FJ",
+        "fj"
       ]
     },
     "FLK": {
-      "alpha2": "FK",
+      "iso2": "FK",
       "name": "Falkland Islands",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -1477,13 +1798,16 @@
           "code": "en-FK",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-FK"
       ]
     },
     "FSM": {
-      "alpha2": "FM",
+      "iso2": "FM",
       "name": "Micronesia",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -1524,13 +1848,24 @@
           "code": "kpg",
           "name": "Kapingamarangi"
         }
+      ],
+      "speak": [
+        "en-FM",
+        "chk",
+        "pon",
+        "yap",
+        "kos",
+        "uli",
+        "woe",
+        "nkr",
+        "kpg"
       ]
     },
     "FRO": {
-      "alpha2": "FO",
+      "iso2": "FO",
       "name": "Faroe Islands",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1543,13 +1878,17 @@
           "code": "da-FO",
           "name": "Danish"
         }
+      ],
+      "speak": [
+        "fo",
+        "da-FO"
       ]
     },
     "FRA": {
-      "alpha2": "FR",
+      "iso2": "FR",
       "name": "France",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1582,13 +1921,22 @@
           "code": "oc",
           "name": "Occitan (post 1500)"
         }
+      ],
+      "speak": [
+        "fr-FR",
+        "frp",
+        "br",
+        "co",
+        "ca",
+        "eu",
+        "oc"
       ]
     },
     "GAB": {
-      "alpha2": "GA",
+      "iso2": "GA",
       "name": "Gabon",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1597,13 +1945,16 @@
           "code": "fr-GA",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-GA"
       ]
     },
     "GBR": {
-      "alpha2": "GB",
+      "iso2": "GB",
       "name": "United Kingdom",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1620,13 +1971,18 @@
           "code": "gd",
           "name": "Scottish Gaelic"
         }
+      ],
+      "speak": [
+        "en-GB",
+        "cy-GB",
+        "gd"
       ]
     },
     "GRD": {
-      "alpha2": "GD",
+      "iso2": "GD",
       "name": "Grenada",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -1635,13 +1991,16 @@
           "code": "en-GD",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-GD"
       ]
     },
     "GEO": {
-      "alpha2": "GE",
+      "iso2": "GE",
       "name": "Georgia",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -1662,13 +2021,19 @@
           "code": "az",
           "name": "Azerbaijani"
         }
+      ],
+      "speak": [
+        "ka",
+        "ru",
+        "hy",
+        "az"
       ]
     },
     "GUF": {
-      "alpha2": "GF",
+      "iso2": "GF",
       "name": "French Guiana",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -1677,13 +2042,16 @@
           "code": "fr-GF",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-GF"
       ]
     },
     "GGY": {
-      "alpha2": "GG",
+      "iso2": "GG",
       "name": "Guernsey",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1696,13 +2064,17 @@
           "code": "nrf",
           "name": "Jèrriais"
         }
+      ],
+      "speak": [
+        "en",
+        "nrf"
       ]
     },
     "GHA": {
-      "alpha2": "GH",
+      "iso2": "GH",
       "name": "Ghana",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1723,13 +2095,19 @@
           "code": "tw",
           "name": "Twi"
         }
+      ],
+      "speak": [
+        "en-GH",
+        "ak",
+        "ee",
+        "tw"
       ]
     },
     "GIB": {
-      "alpha2": "GI",
+      "iso2": "GI",
       "name": "Gibraltar",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1750,13 +2128,19 @@
           "code": "pt",
           "name": "Portuguese"
         }
+      ],
+      "speak": [
+        "en-GI",
+        "es",
+        "it",
+        "pt"
       ]
     },
     "GRL": {
-      "alpha2": "GL",
+      "iso2": "GL",
       "name": "Greenland",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -1773,13 +2157,18 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "kl",
+        "da-GL",
+        "en"
       ]
     },
     "GMB": {
-      "alpha2": "GM",
+      "iso2": "GM",
       "name": "Gambia",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1804,13 +2193,20 @@
           "code": "ff",
           "name": "Fulah"
         }
+      ],
+      "speak": [
+        "en-GM",
+        "mnk",
+        "wof",
+        "wo",
+        "ff"
       ]
     },
     "GIN": {
-      "alpha2": "GN",
+      "iso2": "GN",
       "name": "Guinea",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1819,13 +2215,16 @@
           "code": "fr-GN",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-GN"
       ]
     },
     "GLP": {
-      "alpha2": "GP",
+      "iso2": "GP",
       "name": "Guadeloupe",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -1834,13 +2233,16 @@
           "code": "fr-GP",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-GP"
       ]
     },
     "GNQ": {
-      "alpha2": "GQ",
+      "iso2": "GQ",
       "name": "Equatorial Guinea",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1857,13 +2259,18 @@
           "code": "pt",
           "name": "Portuguese"
         }
+      ],
+      "speak": [
+        "es-GQ",
+        "fr",
+        "pt"
       ]
     },
     "GRC": {
-      "alpha2": "GR",
+      "iso2": "GR",
       "name": "Greece",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -1880,24 +2287,36 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "el-GR",
+        "en",
+        "fr"
       ]
     },
     "SGS": {
-      "alpha2": "GS",
+      "iso2": "GS",
       "name": "South Georgia and the South Sandwich Islands",
-      "region": "XXXX",
+      "region": {
+        "iso2": "AN",
+        "name": "Antartica",
+        "code": "010"
+      },
       "languages": [
         {
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en"
       ]
     },
     "GTM": {
-      "alpha2": "GT",
+      "iso2": "GT",
       "name": "Guatemala",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -1906,13 +2325,16 @@
           "code": "es-GT",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "es-GT"
       ]
     },
     "GUM": {
-      "alpha2": "GU",
+      "iso2": "GU",
       "name": "Guam",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -1925,13 +2347,17 @@
           "code": "ch-GU",
           "name": "Chamorro"
         }
+      ],
+      "speak": [
+        "en-GU",
+        "ch-GU"
       ]
     },
     "GNB": {
-      "alpha2": "GW",
+      "iso2": "GW",
       "name": "Guinea-Bissau",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -1944,13 +2370,17 @@
           "code": "pov",
           "name": "Upper Guinea Crioulo"
         }
+      ],
+      "speak": [
+        "pt-GW",
+        "pov"
       ]
     },
     "GUY": {
-      "alpha2": "GY",
+      "iso2": "GY",
       "name": "Guyana",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -1959,13 +2389,16 @@
           "code": "en-GY",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-GY"
       ]
     },
     "HKG": {
-      "alpha2": "HK",
+      "iso2": "HK",
       "name": "Hong Kong",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -1986,19 +2419,30 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "zh-HK",
+        "yue",
+        "zh",
+        "en"
       ]
     },
     "HMD": {
-      "alpha2": "HM",
+      "iso2": "HM",
       "name": "Heard Island and McDonald Islands",
-      "region": "XXXX",
-      "languages": []
+      "region": {
+        "iso2": "AN",
+        "name": "Antartica",
+        "code": "010"
+      },
+      "languages": [],
+      "speak": []
     },
     "HND": {
-      "alpha2": "HN",
+      "iso2": "HN",
       "name": "Honduras",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -2015,13 +2459,18 @@
           "code": "miq",
           "name": "Mískito"
         }
+      ],
+      "speak": [
+        "es-HN",
+        "cab",
+        "miq"
       ]
     },
     "HRV": {
-      "alpha2": "HR",
+      "iso2": "HR",
       "name": "Croatia",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2034,13 +2483,17 @@
           "code": "sr",
           "name": "Serbian"
         }
+      ],
+      "speak": [
+        "hr-HR",
+        "sr"
       ]
     },
     "HTI": {
-      "alpha2": "HT",
+      "iso2": "HT",
       "name": "Haiti",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -2053,13 +2506,17 @@
           "code": "fr-HT",
           "name": "French"
         }
+      ],
+      "speak": [
+        "ht",
+        "fr-HT"
       ]
     },
     "HUN": {
-      "alpha2": "HU",
+      "iso2": "HU",
       "name": "Hungary",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2068,13 +2525,16 @@
           "code": "hu-HU",
           "name": "Hungarian"
         }
+      ],
+      "speak": [
+        "hu-HU"
       ]
     },
     "IDN": {
-      "alpha2": "ID",
+      "iso2": "ID",
       "name": "Indonesia",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2095,13 +2555,19 @@
           "code": "jv",
           "name": "Javanese"
         }
+      ],
+      "speak": [
+        "id",
+        "en",
+        "nl",
+        "jv"
       ]
     },
     "IRL": {
-      "alpha2": "IE",
+      "iso2": "IE",
       "name": "Ireland",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2114,13 +2580,17 @@
           "code": "ga-IE",
           "name": "Irish"
         }
+      ],
+      "speak": [
+        "en-IE",
+        "ga-IE"
       ]
     },
     "ISR": {
-      "alpha2": "IL",
+      "iso2": "IL",
       "name": "Israel",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2139,15 +2609,21 @@
         },
         {
           "code": "",
-          "name": "Unknown"
+          "name": "UNKNOWN"
         }
+      ],
+      "speak": [
+        "he",
+        "ar-IL",
+        "en-IL",
+        ""
       ]
     },
     "IMN": {
-      "alpha2": "IM",
+      "iso2": "IM",
       "name": "Isle of Man",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2160,13 +2636,17 @@
           "code": "gv",
           "name": "Manx"
         }
+      ],
+      "speak": [
+        "en",
+        "gv"
       ]
     },
     "IND": {
-      "alpha2": "IN",
+      "iso2": "IN",
       "name": "India",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2275,13 +2755,41 @@
           "code": "inc",
           "name": "Indic languages"
         }
+      ],
+      "speak": [
+        "en-IN",
+        "hi",
+        "bn",
+        "te",
+        "mr",
+        "ta",
+        "ur",
+        "gu",
+        "kn",
+        "ml",
+        "or",
+        "pa",
+        "as",
+        "bh",
+        "sat",
+        "ks",
+        "ne",
+        "sd",
+        "kok",
+        "doi",
+        "mni",
+        "sit",
+        "sa",
+        "fr",
+        "lus",
+        "inc"
       ]
     },
     "IOT": {
-      "alpha2": "IO",
+      "iso2": "IO",
       "name": "British Indian Ocean Territory",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2290,13 +2798,16 @@
           "code": "en-IO",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-IO"
       ]
     },
     "IRQ": {
-      "alpha2": "IQ",
+      "iso2": "IQ",
       "name": "Iraq",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2313,13 +2824,18 @@
           "code": "hy",
           "name": "Armenian"
         }
+      ],
+      "speak": [
+        "ar-IQ",
+        "ku",
+        "hy"
       ]
     },
     "IRN": {
-      "alpha2": "IR",
+      "iso2": "IR",
       "name": "Iran",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2332,13 +2848,17 @@
           "code": "ku",
           "name": "Kurdish"
         }
+      ],
+      "speak": [
+        "fa-IR",
+        "ku"
       ]
     },
     "ISL": {
-      "alpha2": "IS",
+      "iso2": "IS",
       "name": "Iceland",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2367,13 +2887,21 @@
           "code": "no",
           "name": "Norwegian"
         }
+      ],
+      "speak": [
+        "is",
+        "en",
+        "de",
+        "da",
+        "sv",
+        "no"
       ]
     },
     "ITA": {
-      "alpha2": "IT",
+      "iso2": "IT",
       "name": "Italy",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2406,13 +2934,22 @@
           "code": "sl",
           "name": "Slovenian"
         }
+      ],
+      "speak": [
+        "it-IT",
+        "de-IT",
+        "fr-IT",
+        "sc",
+        "ca",
+        "co",
+        "sl"
       ]
     },
     "JEY": {
-      "alpha2": "JE",
+      "iso2": "JE",
       "name": "Jersey",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2429,13 +2966,18 @@
           "code": "nrf",
           "name": "Jèrriais"
         }
+      ],
+      "speak": [
+        "en",
+        "fr",
+        "nrf"
       ]
     },
     "JAM": {
-      "alpha2": "JM",
+      "iso2": "JM",
       "name": "Jamaica",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -2444,13 +2986,16 @@
           "code": "en-JM",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-JM"
       ]
     },
     "JOR": {
-      "alpha2": "JO",
+      "iso2": "JO",
       "name": "Jordan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2463,13 +3008,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "ar-JO",
+        "en"
       ]
     },
     "JPN": {
-      "alpha2": "JP",
+      "iso2": "JP",
       "name": "Japan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2478,13 +3027,16 @@
           "code": "ja",
           "name": "Japanese"
         }
+      ],
+      "speak": [
+        "ja"
       ]
     },
     "KEN": {
-      "alpha2": "KE",
+      "iso2": "KE",
       "name": "Kenya",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -2497,13 +3049,17 @@
           "code": "sw-KE",
           "name": "Swahili (macrolanguage)"
         }
+      ],
+      "speak": [
+        "en-KE",
+        "sw-KE"
       ]
     },
     "KGZ": {
-      "alpha2": "KG",
+      "iso2": "KG",
       "name": "Kyrgyzstan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2520,13 +3076,18 @@
           "code": "ru",
           "name": "Russian"
         }
+      ],
+      "speak": [
+        "ky",
+        "uz",
+        "ru"
       ]
     },
     "KHM": {
-      "alpha2": "KH",
+      "iso2": "KH",
       "name": "Cambodia",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2543,13 +3104,18 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "km",
+        "fr",
+        "en"
       ]
     },
     "KIR": {
-      "alpha2": "KI",
+      "iso2": "KI",
       "name": "Kiribati",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -2562,13 +3128,17 @@
           "code": "gil",
           "name": "Gilbertese"
         }
+      ],
+      "speak": [
+        "en-KI",
+        "gil"
       ]
     },
     "COM": {
-      "alpha2": "KM",
+      "iso2": "KM",
       "name": "Comoros",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -2581,13 +3151,17 @@
           "code": "fr-KM",
           "name": "French"
         }
+      ],
+      "speak": [
+        "ar",
+        "fr-KM"
       ]
     },
     "KNA": {
-      "alpha2": "KN",
+      "iso2": "KN",
       "name": "Saint Kitts and Nevis",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -2596,13 +3170,16 @@
           "code": "en-KN",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-KN"
       ]
     },
     "PRK": {
-      "alpha2": "KP",
+      "iso2": "KP",
       "name": "North Korea",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2611,13 +3188,16 @@
           "code": "ko-KP",
           "name": "Korean"
         }
+      ],
+      "speak": [
+        "ko-KP"
       ]
     },
     "KOR": {
-      "alpha2": "KR",
+      "iso2": "KR",
       "name": "South Korea",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2630,13 +3210,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "ko-KR",
+        "en"
       ]
     },
     "XKX": {
-      "alpha2": "XK",
+      "iso2": "XK",
       "name": "Kosovo",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2649,13 +3233,17 @@
           "code": "sr",
           "name": "Serbian"
         }
+      ],
+      "speak": [
+        "sq",
+        "sr"
       ]
     },
     "KWT": {
-      "alpha2": "KW",
+      "iso2": "KW",
       "name": "Kuwait",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2668,13 +3256,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "ar-KW",
+        "en"
       ]
     },
     "CYM": {
-      "alpha2": "KY",
+      "iso2": "KY",
       "name": "Cayman Islands",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -2683,13 +3275,16 @@
           "code": "en-KY",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-KY"
       ]
     },
     "KAZ": {
-      "alpha2": "KZ",
+      "iso2": "KZ",
       "name": "Kazakhstan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2702,13 +3297,17 @@
           "code": "ru",
           "name": "Russian"
         }
+      ],
+      "speak": [
+        "kk",
+        "ru"
       ]
     },
     "LAO": {
-      "alpha2": "LA",
+      "iso2": "LA",
       "name": "Laos",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2725,13 +3324,18 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "lo",
+        "fr",
+        "en"
       ]
     },
     "LBN": {
-      "alpha2": "LB",
+      "iso2": "LB",
       "name": "Lebanon",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2752,13 +3356,19 @@
           "code": "hy",
           "name": "Armenian"
         }
+      ],
+      "speak": [
+        "ar-LB",
+        "fr-LB",
+        "en",
+        "hy"
       ]
     },
     "LCA": {
-      "alpha2": "LC",
+      "iso2": "LC",
       "name": "Saint Lucia",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -2767,13 +3377,16 @@
           "code": "en-LC",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-LC"
       ]
     },
     "LIE": {
-      "alpha2": "LI",
+      "iso2": "LI",
       "name": "Liechtenstein",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2782,13 +3395,16 @@
           "code": "de-LI",
           "name": "German"
         }
+      ],
+      "speak": [
+        "de-LI"
       ]
     },
     "LKA": {
-      "alpha2": "LK",
+      "iso2": "LK",
       "name": "Sri Lanka",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -2805,13 +3421,18 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "si",
+        "ta",
+        "en"
       ]
     },
     "LBR": {
-      "alpha2": "LR",
+      "iso2": "LR",
       "name": "Liberia",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -2820,13 +3441,16 @@
           "code": "en-LR",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-LR"
       ]
     },
     "LSO": {
-      "alpha2": "LS",
+      "iso2": "LS",
       "name": "Lesotho",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -2847,13 +3471,19 @@
           "code": "xh",
           "name": "Xhosa"
         }
+      ],
+      "speak": [
+        "en-LS",
+        "st",
+        "zu",
+        "xh"
       ]
     },
     "LTU": {
-      "alpha2": "LT",
+      "iso2": "LT",
       "name": "Lithuania",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2870,13 +3500,18 @@
           "code": "pl",
           "name": "Polish"
         }
+      ],
+      "speak": [
+        "lt",
+        "ru",
+        "pl"
       ]
     },
     "LUX": {
-      "alpha2": "LU",
+      "iso2": "LU",
       "name": "Luxembourg",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2893,13 +3528,18 @@
           "code": "fr-LU",
           "name": "French"
         }
+      ],
+      "speak": [
+        "lb",
+        "de-LU",
+        "fr-LU"
       ]
     },
     "LVA": {
-      "alpha2": "LV",
+      "iso2": "LV",
       "name": "Latvia",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2916,13 +3556,18 @@
           "code": "lt",
           "name": "Lithuanian"
         }
+      ],
+      "speak": [
+        "lv",
+        "ru",
+        "lt"
       ]
     },
     "LBY": {
-      "alpha2": "LY",
+      "iso2": "LY",
       "name": "Libya",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -2939,13 +3584,18 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "ar-LY",
+        "it",
+        "en"
       ]
     },
     "MAR": {
-      "alpha2": "MA",
+      "iso2": "MA",
       "name": "Morocco",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -2962,13 +3612,18 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "ar-MA",
+        "ber",
+        "fr"
       ]
     },
     "MCO": {
-      "alpha2": "MC",
+      "iso2": "MC",
       "name": "Monaco",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -2985,13 +3640,18 @@
           "code": "it",
           "name": "Italian"
         }
+      ],
+      "speak": [
+        "fr-MC",
+        "en",
+        "it"
       ]
     },
     "MDA": {
-      "alpha2": "MD",
+      "iso2": "MD",
       "name": "Moldova",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -3012,13 +3672,19 @@
           "code": "tr",
           "name": "Turkish"
         }
+      ],
+      "speak": [
+        "ro",
+        "ru",
+        "gag",
+        "tr"
       ]
     },
     "MNE": {
-      "alpha2": "ME",
+      "iso2": "ME",
       "name": "Montenegro",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -3047,13 +3713,21 @@
           "code": "rom",
           "name": "Romany"
         }
+      ],
+      "speak": [
+        "sr",
+        "hu",
+        "bs",
+        "sq",
+        "hr",
+        "rom"
       ]
     },
     "MAF": {
-      "alpha2": "MF",
+      "iso2": "MF",
       "name": "Saint Martin",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -3062,13 +3736,16 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr"
       ]
     },
     "MDG": {
-      "alpha2": "MG",
+      "iso2": "MG",
       "name": "Madagascar",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -3081,13 +3758,17 @@
           "code": "mg",
           "name": "Malagasy"
         }
+      ],
+      "speak": [
+        "fr-MG",
+        "mg"
       ]
     },
     "MHL": {
-      "alpha2": "MH",
+      "iso2": "MH",
       "name": "Marshall Islands",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -3100,13 +3781,17 @@
           "code": "en-MH",
           "name": "English"
         }
+      ],
+      "speak": [
+        "mh",
+        "en-MH"
       ]
     },
     "MKD": {
-      "alpha2": "MK",
+      "iso2": "MK",
       "name": "North Macedonia",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -3131,13 +3816,20 @@
           "code": "sr",
           "name": "Serbian"
         }
+      ],
+      "speak": [
+        "mk",
+        "sq",
+        "tr",
+        "rmm",
+        "sr"
       ]
     },
     "MLI": {
-      "alpha2": "ML",
+      "iso2": "ML",
       "name": "Mali",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -3150,13 +3842,17 @@
           "code": "bm",
           "name": "Bambara"
         }
+      ],
+      "speak": [
+        "fr-ML",
+        "bm"
       ]
     },
     "MMR": {
-      "alpha2": "MM",
+      "iso2": "MM",
       "name": "Myanmar",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -3165,13 +3861,16 @@
           "code": "my",
           "name": "Burmese"
         }
+      ],
+      "speak": [
+        "my"
       ]
     },
     "MNG": {
-      "alpha2": "MN",
+      "iso2": "MN",
       "name": "Mongolia",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -3184,13 +3883,17 @@
           "code": "ru",
           "name": "Russian"
         }
+      ],
+      "speak": [
+        "mn",
+        "ru"
       ]
     },
     "MAC": {
-      "alpha2": "MO",
+      "iso2": "MO",
       "name": "Macao",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -3207,13 +3910,18 @@
           "code": "pt",
           "name": "Portuguese"
         }
+      ],
+      "speak": [
+        "zh",
+        "zh-MO",
+        "pt"
       ]
     },
     "MNP": {
-      "alpha2": "MP",
+      "iso2": "MP",
       "name": "Northern Mariana Islands",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -3238,13 +3946,20 @@
           "code": "en-MP",
           "name": "English"
         }
+      ],
+      "speak": [
+        "fil",
+        "tl",
+        "zh",
+        "ch-MP",
+        "en-MP"
       ]
     },
     "MTQ": {
-      "alpha2": "MQ",
+      "iso2": "MQ",
       "name": "Martinique",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -3253,13 +3968,16 @@
           "code": "fr-MQ",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-MQ"
       ]
     },
     "MRT": {
-      "alpha2": "MR",
+      "iso2": "MR",
       "name": "Mauritania",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -3288,13 +4006,21 @@
           "code": "wo",
           "name": "Wolof"
         }
+      ],
+      "speak": [
+        "ar-MR",
+        "fuc",
+        "snk",
+        "fr",
+        "mey",
+        "wo"
       ]
     },
     "MSR": {
-      "alpha2": "MS",
+      "iso2": "MS",
       "name": "Montserrat",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -3303,13 +4029,16 @@
           "code": "en-MS",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-MS"
       ]
     },
     "MLT": {
-      "alpha2": "MT",
+      "iso2": "MT",
       "name": "Malta",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -3322,13 +4051,17 @@
           "code": "en-MT",
           "name": "English"
         }
+      ],
+      "speak": [
+        "mt",
+        "en-MT"
       ]
     },
     "MUS": {
-      "alpha2": "MU",
+      "iso2": "MU",
       "name": "Mauritius",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -3345,13 +4078,18 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "en-MU",
+        "bho",
+        "fr"
       ]
     },
     "MDV": {
-      "alpha2": "MV",
+      "iso2": "MV",
       "name": "Maldives",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -3364,13 +4102,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "dv",
+        "en"
       ]
     },
     "MWI": {
-      "alpha2": "MW",
+      "iso2": "MW",
       "name": "Malawi",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -3391,13 +4133,19 @@
           "code": "swk",
           "name": "Malawi Sena"
         }
+      ],
+      "speak": [
+        "ny",
+        "yao",
+        "tum",
+        "swk"
       ]
     },
     "MEX": {
-      "alpha2": "MX",
+      "iso2": "MX",
       "name": "Mexico",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -3406,13 +4154,16 @@
           "code": "es-MX",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "es-MX"
       ]
     },
     "MYS": {
-      "alpha2": "MY",
+      "iso2": "MY",
       "name": "Malaysia",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -3449,13 +4200,23 @@
           "code": "th",
           "name": "Thai"
         }
+      ],
+      "speak": [
+        "ms-MY",
+        "en",
+        "zh",
+        "ta",
+        "te",
+        "ml",
+        "pa",
+        "th"
       ]
     },
     "MOZ": {
-      "alpha2": "MZ",
+      "iso2": "MZ",
       "name": "Mozambique",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -3468,13 +4229,17 @@
           "code": "vmw",
           "name": "Makhuwa"
         }
+      ],
+      "speak": [
+        "pt-MZ",
+        "vmw"
       ]
     },
     "NAM": {
-      "alpha2": "NA",
+      "iso2": "NA",
       "name": "Namibia",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -3499,13 +4264,20 @@
           "code": "naq",
           "name": "Khoekhoe"
         }
+      ],
+      "speak": [
+        "en-NA",
+        "af",
+        "de",
+        "hz",
+        "naq"
       ]
     },
     "NCL": {
-      "alpha2": "NC",
+      "iso2": "NC",
       "name": "New Caledonia",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -3514,13 +4286,16 @@
           "code": "fr-NC",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-NC"
       ]
     },
     "NER": {
-      "alpha2": "NE",
+      "iso2": "NE",
       "name": "Niger",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -3541,13 +4316,19 @@
           "code": "dje",
           "name": "Zarma"
         }
+      ],
+      "speak": [
+        "fr-NE",
+        "ha",
+        "kr",
+        "dje"
       ]
     },
     "NFK": {
-      "alpha2": "NF",
+      "iso2": "NF",
       "name": "Norfolk Island",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -3556,13 +4337,16 @@
           "code": "en-NF",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-NF"
       ]
     },
     "NGA": {
-      "alpha2": "NG",
+      "iso2": "NG",
       "name": "Nigeria",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -3587,13 +4371,20 @@
           "code": "ff",
           "name": "Fulah"
         }
+      ],
+      "speak": [
+        "en-NG",
+        "ha",
+        "yo",
+        "ig",
+        "ff"
       ]
     },
     "NIC": {
-      "alpha2": "NI",
+      "iso2": "NI",
       "name": "Nicaragua",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -3606,13 +4397,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "es-NI",
+        "en"
       ]
     },
     "NLD": {
-      "alpha2": "NL",
+      "iso2": "NL",
       "name": "The Netherlands",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -3625,13 +4420,17 @@
           "code": "fy-NL",
           "name": "Western Frisian"
         }
+      ],
+      "speak": [
+        "nl-NL",
+        "fy-NL"
       ]
     },
     "NOR": {
-      "alpha2": "NO",
+      "iso2": "NO",
       "name": "Norway",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -3656,13 +4455,20 @@
           "code": "fi",
           "name": "Finnish"
         }
+      ],
+      "speak": [
+        "no",
+        "nb",
+        "nn",
+        "se",
+        "fi"
       ]
     },
     "NPL": {
-      "alpha2": "NP",
+      "iso2": "NP",
       "name": "Nepal",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -3675,13 +4481,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "ne",
+        "en"
       ]
     },
     "NRU": {
-      "alpha2": "NR",
+      "iso2": "NR",
       "name": "Nauru",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -3694,13 +4504,17 @@
           "code": "en-NR",
           "name": "English"
         }
+      ],
+      "speak": [
+        "na",
+        "en-NR"
       ]
     },
     "NIU": {
-      "alpha2": "NU",
+      "iso2": "NU",
       "name": "Niue",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -3713,13 +4527,17 @@
           "code": "en-NU",
           "name": "English"
         }
+      ],
+      "speak": [
+        "niu",
+        "en-NU"
       ]
     },
     "NZL": {
-      "alpha2": "NZ",
+      "iso2": "NZ",
       "name": "New Zealand",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -3732,13 +4550,17 @@
           "code": "mi",
           "name": "Maori"
         }
+      ],
+      "speak": [
+        "en-NZ",
+        "mi"
       ]
     },
     "OMN": {
-      "alpha2": "OM",
+      "iso2": "OM",
       "name": "Oman",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -3759,13 +4581,19 @@
           "code": "ur",
           "name": "Urdu"
         }
+      ],
+      "speak": [
+        "ar-OM",
+        "en",
+        "bal",
+        "ur"
       ]
     },
     "PAN": {
-      "alpha2": "PA",
+      "iso2": "PA",
       "name": "Panama",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -3778,13 +4606,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "es-PA",
+        "en"
       ]
     },
     "PER": {
-      "alpha2": "PE",
+      "iso2": "PE",
       "name": "Peru",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -3801,13 +4633,18 @@
           "code": "ay",
           "name": "Aymara"
         }
+      ],
+      "speak": [
+        "es-PE",
+        "qu",
+        "ay"
       ]
     },
     "PYF": {
-      "alpha2": "PF",
+      "iso2": "PF",
       "name": "French Polynesia",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -3820,13 +4657,17 @@
           "code": "ty",
           "name": "Tahitian"
         }
+      ],
+      "speak": [
+        "fr-PF",
+        "ty"
       ]
     },
     "PNG": {
-      "alpha2": "PG",
+      "iso2": "PG",
       "name": "Papua New Guinea",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -3847,13 +4688,19 @@
           "code": "tpi",
           "name": "Tok Pisin"
         }
+      ],
+      "speak": [
+        "en-PG",
+        "ho",
+        "meu",
+        "tpi"
       ]
     },
     "PHL": {
-      "alpha2": "PH",
+      "iso2": "PH",
       "name": "Philippines",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -3950,13 +4797,38 @@
           "code": "abx",
           "name": "Inabaknon"
         }
+      ],
+      "speak": [
+        "tl",
+        "en-PH",
+        "fil",
+        "ceb",
+        "ilo",
+        "hil",
+        "war",
+        "pam",
+        "bik",
+        "bcl",
+        "pag",
+        "mrw",
+        "tsg",
+        "mdh",
+        "cbk",
+        "krj",
+        "sgd",
+        "msb",
+        "akl",
+        "ibg",
+        "yka",
+        "mta",
+        "abx"
       ]
     },
     "PAK": {
-      "alpha2": "PK",
+      "iso2": "PK",
       "name": "Pakistan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -3985,13 +4857,21 @@
           "code": "brh",
           "name": "Brahui"
         }
+      ],
+      "speak": [
+        "ur-PK",
+        "en-PK",
+        "pa",
+        "sd",
+        "ps",
+        "brh"
       ]
     },
     "POL": {
-      "alpha2": "PL",
+      "iso2": "PL",
       "name": "Poland",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4000,13 +4880,16 @@
           "code": "pl",
           "name": "Polish"
         }
+      ],
+      "speak": [
+        "pl"
       ]
     },
     "SPM": {
-      "alpha2": "PM",
+      "iso2": "PM",
       "name": "Saint Pierre and Miquelon",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -4015,13 +4898,16 @@
           "code": "fr-PM",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-PM"
       ]
     },
     "PCN": {
-      "alpha2": "PN",
+      "iso2": "PN",
       "name": "Pitcairn",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -4030,13 +4916,16 @@
           "code": "en-PN",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-PN"
       ]
     },
     "PRI": {
-      "alpha2": "PR",
+      "iso2": "PR",
       "name": "Puerto Rico",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -4049,13 +4938,17 @@
           "code": "es-PR",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "en-PR",
+        "es-PR"
       ]
     },
     "PSE": {
-      "alpha2": "PS",
+      "iso2": "PS",
       "name": "Palestinian Territory",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -4064,13 +4957,16 @@
           "code": "ar-PS",
           "name": "Arabic"
         }
+      ],
+      "speak": [
+        "ar-PS"
       ]
     },
     "PRT": {
-      "alpha2": "PT",
+      "iso2": "PT",
       "name": "Portugal",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4083,13 +4979,17 @@
           "code": "mwl",
           "name": "Mirandese"
         }
+      ],
+      "speak": [
+        "pt-PT",
+        "mwl"
       ]
     },
     "PLW": {
-      "alpha2": "PW",
+      "iso2": "PW",
       "name": "Palau",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -4122,13 +5022,22 @@
           "code": "zh",
           "name": "Chinese"
         }
+      ],
+      "speak": [
+        "pau",
+        "sov",
+        "en-PW",
+        "tox",
+        "ja",
+        "fil",
+        "zh"
       ]
     },
     "PRY": {
-      "alpha2": "PY",
+      "iso2": "PY",
       "name": "Paraguay",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -4141,13 +5050,17 @@
           "code": "gn",
           "name": "Guarani"
         }
+      ],
+      "speak": [
+        "es-PY",
+        "gn"
       ]
     },
     "QAT": {
-      "alpha2": "QA",
+      "iso2": "QA",
       "name": "Qatar",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -4160,13 +5073,17 @@
           "code": "es",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "ar-QA",
+        "es"
       ]
     },
     "REU": {
-      "alpha2": "RE",
+      "iso2": "RE",
       "name": "Reunion",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4175,13 +5092,16 @@
           "code": "fr-RE",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-RE"
       ]
     },
     "ROU": {
-      "alpha2": "RO",
+      "iso2": "RO",
       "name": "Romania",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4198,13 +5118,18 @@
           "code": "rom",
           "name": "Romany"
         }
+      ],
+      "speak": [
+        "ro",
+        "hu",
+        "rom"
       ]
     },
     "SRB": {
-      "alpha2": "RS",
+      "iso2": "RS",
       "name": "Serbia",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4225,13 +5150,19 @@
           "code": "rom",
           "name": "Romany"
         }
+      ],
+      "speak": [
+        "sr",
+        "hu",
+        "bs",
+        "rom"
       ]
     },
     "RUS": {
-      "alpha2": "RU",
+      "iso2": "RU",
       "name": "Russia",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4328,13 +5259,38 @@
           "code": "nog",
           "name": "Nogai"
         }
+      ],
+      "speak": [
+        "ru",
+        "tt",
+        "xal",
+        "cau",
+        "ady",
+        "kv",
+        "ce",
+        "tyv",
+        "cv",
+        "udm",
+        "tut",
+        "mns",
+        "bua",
+        "myv",
+        "mdf",
+        "chm",
+        "ba",
+        "inh",
+        "kbd",
+        "krc",
+        "av",
+        "sah",
+        "nog"
       ]
     },
     "RWA": {
-      "alpha2": "RW",
+      "iso2": "RW",
       "name": "Rwanda",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4355,13 +5311,19 @@
           "code": "sw",
           "name": "Swahili (macrolanguage)"
         }
+      ],
+      "speak": [
+        "rw",
+        "en-RW",
+        "fr-RW",
+        "sw"
       ]
     },
     "SAU": {
-      "alpha2": "SA",
+      "iso2": "SA",
       "name": "Saudi Arabia",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -4370,13 +5332,16 @@
           "code": "ar-SA",
           "name": "Arabic"
         }
+      ],
+      "speak": [
+        "ar-SA"
       ]
     },
     "SLB": {
-      "alpha2": "SB",
+      "iso2": "SB",
       "name": "Solomon Islands",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -4389,13 +5354,17 @@
           "code": "tpi",
           "name": "Tok Pisin"
         }
+      ],
+      "speak": [
+        "en-SB",
+        "tpi"
       ]
     },
     "SYC": {
-      "alpha2": "SC",
+      "iso2": "SC",
       "name": "Seychelles",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4408,13 +5377,17 @@
           "code": "fr-SC",
           "name": "French"
         }
+      ],
+      "speak": [
+        "en-SC",
+        "fr-SC"
       ]
     },
     "SDN": {
-      "alpha2": "SD",
+      "iso2": "SD",
       "name": "Sudan",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4431,13 +5404,18 @@
           "code": "fia",
           "name": "Nobiin"
         }
+      ],
+      "speak": [
+        "ar-SD",
+        "en",
+        "fia"
       ]
     },
     "SSD": {
-      "alpha2": "SS",
+      "iso2": "SS",
       "name": "South Sudan",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4446,13 +5424,16 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en"
       ]
     },
     "SWE": {
-      "alpha2": "SE",
+      "iso2": "SE",
       "name": "Sweden",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4473,13 +5454,19 @@
           "code": "fi-SE",
           "name": "Finnish"
         }
+      ],
+      "speak": [
+        "sv-SE",
+        "se",
+        "sma",
+        "fi-SE"
       ]
     },
     "SGP": {
-      "alpha2": "SG",
+      "iso2": "SG",
       "name": "Singapore",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -4504,13 +5491,20 @@
           "code": "zh-SG",
           "name": "Chinese"
         }
+      ],
+      "speak": [
+        "cmn",
+        "en-SG",
+        "ms-SG",
+        "ta-SG",
+        "zh-SG"
       ]
     },
     "SHN": {
-      "alpha2": "SH",
+      "iso2": "SH",
       "name": "Saint Helena",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4519,13 +5513,16 @@
           "code": "en-SH",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-SH"
       ]
     },
     "SVN": {
-      "alpha2": "SI",
+      "iso2": "SI",
       "name": "Slovenia",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4538,13 +5535,17 @@
           "code": "sh",
           "name": "Serbo-Croatian"
         }
+      ],
+      "speak": [
+        "sl",
+        "sh"
       ]
     },
     "SJM": {
-      "alpha2": "SJ",
+      "iso2": "SJ",
       "name": "Svalbard and Jan Mayen",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4557,13 +5558,17 @@
           "code": "ru",
           "name": "Russian"
         }
+      ],
+      "speak": [
+        "no",
+        "ru"
       ]
     },
     "SVK": {
-      "alpha2": "SK",
+      "iso2": "SK",
       "name": "Slovakia",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4576,13 +5581,17 @@
           "code": "hu",
           "name": "Hungarian"
         }
+      ],
+      "speak": [
+        "sk",
+        "hu"
       ]
     },
     "SLE": {
-      "alpha2": "SL",
+      "iso2": "SL",
       "name": "Sierra Leone",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4599,13 +5608,18 @@
           "code": "tem",
           "name": "Timne"
         }
+      ],
+      "speak": [
+        "en-SL",
+        "men",
+        "tem"
       ]
     },
     "SMR": {
-      "alpha2": "SM",
+      "iso2": "SM",
       "name": "San Marino",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -4614,13 +5628,16 @@
           "code": "it-SM",
           "name": "Italian"
         }
+      ],
+      "speak": [
+        "it-SM"
       ]
     },
     "SEN": {
-      "alpha2": "SN",
+      "iso2": "SN",
       "name": "Senegal",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4641,13 +5658,19 @@
           "code": "mnk",
           "name": "Mandinka"
         }
+      ],
+      "speak": [
+        "fr-SN",
+        "wo",
+        "fuc",
+        "mnk"
       ]
     },
     "SOM": {
-      "alpha2": "SO",
+      "iso2": "SO",
       "name": "Somalia",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4668,13 +5691,19 @@
           "code": "en-SO",
           "name": "English"
         }
+      ],
+      "speak": [
+        "so-SO",
+        "ar-SO",
+        "it",
+        "en-SO"
       ]
     },
     "SUR": {
-      "alpha2": "SR",
+      "iso2": "SR",
       "name": "Suriname",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -4699,13 +5728,20 @@
           "code": "jv",
           "name": "Javanese"
         }
+      ],
+      "speak": [
+        "nl-SR",
+        "en",
+        "srn",
+        "hns",
+        "jv"
       ]
     },
     "STP": {
-      "alpha2": "ST",
+      "iso2": "ST",
       "name": "Sao Tome and Principe",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4714,13 +5750,16 @@
           "code": "pt-ST",
           "name": "Portuguese"
         }
+      ],
+      "speak": [
+        "pt-ST"
       ]
     },
     "SLV": {
-      "alpha2": "SV",
+      "iso2": "SV",
       "name": "El Salvador",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -4729,13 +5768,16 @@
           "code": "es-SV",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "es-SV"
       ]
     },
     "SXM": {
-      "alpha2": "SX",
+      "iso2": "SX",
       "name": "Sint Maarten",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -4748,13 +5790,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "nl",
+        "en"
       ]
     },
     "SYR": {
-      "alpha2": "SY",
+      "iso2": "SY",
       "name": "Syria",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -4783,13 +5829,21 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "ar-SY",
+        "ku",
+        "hy",
+        "arc",
+        "fr",
+        "en"
       ]
     },
     "SWZ": {
-      "alpha2": "SZ",
+      "iso2": "SZ",
       "name": "Eswatini",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4802,13 +5856,17 @@
           "code": "ss-SZ",
           "name": "Swati"
         }
+      ],
+      "speak": [
+        "en-SZ",
+        "ss-SZ"
       ]
     },
     "TCA": {
-      "alpha2": "TC",
+      "iso2": "TC",
       "name": "Turks and Caicos Islands",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -4817,13 +5875,16 @@
           "code": "en-TC",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-TC"
       ]
     },
     "TCD": {
-      "alpha2": "TD",
+      "iso2": "TD",
       "name": "Chad",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4840,24 +5901,36 @@
           "code": "sre",
           "name": "Sara"
         }
+      ],
+      "speak": [
+        "fr-TD",
+        "ar-TD",
+        "sre"
       ]
     },
     "ATF": {
-      "alpha2": "TF",
+      "iso2": "TF",
       "name": "French Southern Territories",
-      "region": "XXXX",
+      "region": {
+        "iso2": "AN",
+        "name": "Antartica",
+        "code": "010"
+      },
       "languages": [
         {
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr"
       ]
     },
     "TGO": {
-      "alpha2": "TG",
+      "iso2": "TG",
       "name": "Togo",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -4886,13 +5959,21 @@
           "code": "ha",
           "name": "Hausa"
         }
+      ],
+      "speak": [
+        "fr-TG",
+        "ee",
+        "hna",
+        "kbp",
+        "dag",
+        "ha"
       ]
     },
     "THA": {
-      "alpha2": "TH",
+      "iso2": "TH",
       "name": "Thailand",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -4905,13 +5986,17 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "th",
+        "en"
       ]
     },
     "TJK": {
-      "alpha2": "TJ",
+      "iso2": "TJ",
       "name": "Tajikistan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -4924,13 +6009,17 @@
           "code": "ru",
           "name": "Russian"
         }
+      ],
+      "speak": [
+        "tg",
+        "ru"
       ]
     },
     "TKL": {
-      "alpha2": "TK",
+      "iso2": "TK",
       "name": "Tokelau",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -4943,13 +6032,17 @@
           "code": "en-TK",
           "name": "English"
         }
+      ],
+      "speak": [
+        "tkl",
+        "en-TK"
       ]
     },
     "TLS": {
-      "alpha2": "TL",
+      "iso2": "TL",
       "name": "Timor Leste",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -4970,13 +6063,19 @@
           "code": "en",
           "name": "English"
         }
+      ],
+      "speak": [
+        "tet",
+        "pt-TL",
+        "id",
+        "en"
       ]
     },
     "TKM": {
-      "alpha2": "TM",
+      "iso2": "TM",
       "name": "Turkmenistan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -4993,13 +6092,18 @@
           "code": "uz",
           "name": "Uzbek"
         }
+      ],
+      "speak": [
+        "tk",
+        "ru",
+        "uz"
       ]
     },
     "TUN": {
-      "alpha2": "TN",
+      "iso2": "TN",
       "name": "Tunisia",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -5012,13 +6116,17 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "ar-TN",
+        "fr"
       ]
     },
     "TON": {
-      "alpha2": "TO",
+      "iso2": "TO",
       "name": "Tonga",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -5031,13 +6139,17 @@
           "code": "en-TO",
           "name": "English"
         }
+      ],
+      "speak": [
+        "to",
+        "en-TO"
       ]
     },
     "TUR": {
-      "alpha2": "TR",
+      "iso2": "TR",
       "name": "Turkey",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -5062,13 +6174,20 @@
           "code": "av",
           "name": "Avaric"
         }
+      ],
+      "speak": [
+        "tr-TR",
+        "ku",
+        "diq",
+        "az",
+        "av"
       ]
     },
     "TTO": {
-      "alpha2": "TT",
+      "iso2": "TT",
       "name": "Trinidad and Tobago",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -5093,13 +6212,20 @@
           "code": "zh",
           "name": "Chinese"
         }
+      ],
+      "speak": [
+        "en-TT",
+        "hns",
+        "fr",
+        "es",
+        "zh"
       ]
     },
     "TUV": {
-      "alpha2": "TV",
+      "iso2": "TV",
       "name": "Tuvalu",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -5120,13 +6246,19 @@
           "code": "gil",
           "name": "Gilbertese"
         }
+      ],
+      "speak": [
+        "tvl",
+        "en",
+        "sm",
+        "gil"
       ]
     },
     "TWN": {
-      "alpha2": "TW",
+      "iso2": "TW",
       "name": "Taiwan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -5147,13 +6279,19 @@
           "code": "hak",
           "name": "Hakka Chinese"
         }
+      ],
+      "speak": [
+        "zh-TW",
+        "zh",
+        "nan",
+        "hak"
       ]
     },
     "TZA": {
-      "alpha2": "TZ",
+      "iso2": "TZ",
       "name": "Tanzania",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -5170,13 +6308,18 @@
           "code": "ar",
           "name": "Arabic"
         }
+      ],
+      "speak": [
+        "sw-TZ",
+        "en",
+        "ar"
       ]
     },
     "UKR": {
-      "alpha2": "UA",
+      "iso2": "UA",
       "name": "Ukraine",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -5201,13 +6344,20 @@
           "code": "hu",
           "name": "Hungarian"
         }
+      ],
+      "speak": [
+        "uk",
+        "ru-UA",
+        "rom",
+        "pl",
+        "hu"
       ]
     },
     "UGA": {
-      "alpha2": "UG",
+      "iso2": "UG",
       "name": "Uganda",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -5228,13 +6378,19 @@
           "code": "ar",
           "name": "Arabic"
         }
+      ],
+      "speak": [
+        "en-UG",
+        "lg",
+        "sw",
+        "ar"
       ]
     },
     "UMI": {
-      "alpha2": "UM",
+      "iso2": "UM",
       "name": "United States Minor Outlying Islands",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -5243,13 +6399,16 @@
           "code": "en-UM",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-UM"
       ]
     },
     "USA": {
-      "alpha2": "US",
+      "iso2": "US",
       "name": "United States",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -5270,13 +6429,19 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "en-US",
+        "es-US",
+        "haw",
+        "fr"
       ]
     },
     "URY": {
-      "alpha2": "UY",
+      "iso2": "UY",
       "name": "Uruguay",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -5285,13 +6450,16 @@
           "code": "es-UY",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "es-UY"
       ]
     },
     "UZB": {
-      "alpha2": "UZ",
+      "iso2": "UZ",
       "name": "Uzbekistan",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -5308,13 +6476,18 @@
           "code": "tg",
           "name": "Tajik"
         }
+      ],
+      "speak": [
+        "uz",
+        "ru",
+        "tg"
       ]
     },
     "VAT": {
-      "alpha2": "VA",
+      "iso2": "VA",
       "name": "Vatican",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -5331,13 +6504,18 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "la",
+        "it",
+        "fr"
       ]
     },
     "VCT": {
-      "alpha2": "VC",
+      "iso2": "VC",
       "name": "Saint Vincent and the Grenadines",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -5350,13 +6528,17 @@
           "code": "fr",
           "name": "French"
         }
+      ],
+      "speak": [
+        "en-VC",
+        "fr"
       ]
     },
     "VEN": {
-      "alpha2": "VE",
+      "iso2": "VE",
       "name": "Venezuela",
       "region": {
-        "short_name": "SA",
+        "iso2": "SA",
         "name": "South America",
         "code": "005"
       },
@@ -5365,13 +6547,16 @@
           "code": "es-VE",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "es-VE"
       ]
     },
     "VGB": {
-      "alpha2": "VG",
+      "iso2": "VG",
       "name": "British Virgin Islands",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -5380,13 +6565,16 @@
           "code": "en-VG",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-VG"
       ]
     },
     "VIR": {
-      "alpha2": "VI",
+      "iso2": "VI",
       "name": "U.S. Virgin Islands",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -5395,13 +6583,16 @@
           "code": "en-VI",
           "name": "English"
         }
+      ],
+      "speak": [
+        "en-VI"
       ]
     },
     "VNM": {
-      "alpha2": "VN",
+      "iso2": "VN",
       "name": "Vietnam",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -5426,13 +6617,20 @@
           "code": "km",
           "name": "Khmer"
         }
+      ],
+      "speak": [
+        "vi",
+        "en",
+        "fr",
+        "zh",
+        "km"
       ]
     },
     "VUT": {
-      "alpha2": "VU",
+      "iso2": "VU",
       "name": "Vanuatu",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -5449,13 +6647,18 @@
           "code": "fr-VU",
           "name": "French"
         }
+      ],
+      "speak": [
+        "bi",
+        "en-VU",
+        "fr-VU"
       ]
     },
     "WLF": {
-      "alpha2": "WF",
+      "iso2": "WF",
       "name": "Wallis and Futuna",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -5472,13 +6675,18 @@
           "code": "fr-WF",
           "name": "French"
         }
+      ],
+      "speak": [
+        "wls",
+        "fud",
+        "fr-WF"
       ]
     },
     "WSM": {
-      "alpha2": "WS",
+      "iso2": "WS",
       "name": "Samoa",
       "region": {
-        "short_name": "OC",
+        "iso2": "OC",
         "name": "Oceania",
         "code": "009"
       },
@@ -5491,13 +6699,17 @@
           "code": "en-WS",
           "name": "English"
         }
+      ],
+      "speak": [
+        "sm",
+        "en-WS"
       ]
     },
     "YEM": {
-      "alpha2": "YE",
+      "iso2": "YE",
       "name": "Yemen",
       "region": {
-        "short_name": "AS",
+        "iso2": "AS",
         "name": "Asia",
         "code": "142"
       },
@@ -5506,13 +6718,16 @@
           "code": "ar-YE",
           "name": "Arabic"
         }
+      ],
+      "speak": [
+        "ar-YE"
       ]
     },
     "MYT": {
-      "alpha2": "YT",
+      "iso2": "YT",
       "name": "Mayotte",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -5521,13 +6736,16 @@
           "code": "fr-YT",
           "name": "French"
         }
+      ],
+      "speak": [
+        "fr-YT"
       ]
     },
     "ZAF": {
-      "alpha2": "ZA",
+      "iso2": "ZA",
       "name": "South Africa",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -5576,13 +6794,26 @@
           "code": "nr",
           "name": "South Ndebele"
         }
+      ],
+      "speak": [
+        "zu",
+        "xh",
+        "af",
+        "nso",
+        "en-ZA",
+        "tn",
+        "st",
+        "ts",
+        "ss",
+        "ve",
+        "nr"
       ]
     },
     "ZMB": {
-      "alpha2": "ZM",
+      "iso2": "ZM",
       "name": "Zambia",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -5615,13 +6846,22 @@
           "code": "toi",
           "name": "Tonga (Zambia)"
         }
+      ],
+      "speak": [
+        "en-ZM",
+        "bem",
+        "loz",
+        "lun",
+        "lue",
+        "ny",
+        "toi"
       ]
     },
     "ZWE": {
-      "alpha2": "ZW",
+      "iso2": "ZW",
       "name": "Zimbabwe",
       "region": {
-        "short_name": "AF",
+        "iso2": "AF",
         "name": "Africa",
         "code": "002"
       },
@@ -5642,13 +6882,19 @@
           "code": "nd",
           "name": "North Ndebele"
         }
+      ],
+      "speak": [
+        "en-ZW",
+        "sn",
+        "nr",
+        "nd"
       ]
     },
     "SCG": {
-      "alpha2": "CS",
+      "iso2": "CS",
       "name": "Serbia and Montenegro",
       "region": {
-        "short_name": "EU",
+        "iso2": "EU",
         "name": "Europe",
         "code": "150"
       },
@@ -5669,13 +6915,19 @@
           "code": "sr",
           "name": "Serbian"
         }
+      ],
+      "speak": [
+        "cu",
+        "hu",
+        "sq",
+        "sr"
       ]
     },
     "ANT": {
-      "alpha2": "AN",
+      "iso2": "AN",
       "name": "Netherlands Antilles",
       "region": {
-        "short_name": "NA",
+        "iso2": "NA",
         "name": "Northern America",
         "code": "021"
       },
@@ -5692,6 +6944,11 @@
           "code": "es",
           "name": "Spanish"
         }
+      ],
+      "speak": [
+        "nl-AN",
+        "en",
+        "es"
       ]
     }
   },
